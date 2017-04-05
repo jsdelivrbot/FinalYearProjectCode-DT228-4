@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="index">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://rawgit.com/angular/bower-angular/master/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <sc]ript src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+    <script src="javascripts/index.js"></script>
+    <title>Quick</title>
+</head>
+
+<body>
+
+<div ng-controller="indexController">
+<nav class="navbar navbar-default" style="background-color:#4A90E2; border-color:#4A90E2;background-image: none;
+  background-repeat: no-repeat;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">
+        <img alt="Brand" src="/images/Q.svg" width="40px">
+      </a>
+    </div>
+  </div>
+</nav>
+    
+    <h5 style="text-align:center;color:white;"></h5>
+        <div id="cardContainer">
+            <div class="card" style="background-color: #4A90E2;width:318px; display: inline-block">
+                <img class="card-img-top" src="images/Q.svg" width="150px" alt="QuickLogo" style="padding-top:20px;padding-bottom:20px;">    
+                <div style="background-color: white">
+                    <div class="card-block">
+                        <h5 class="card-title">Welcome</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="views/auth">
+                            <li class="list-group-item">Login</li>
+                        </a>
+                        <a href="views/userSignUp">
+                            <li class="list-group-item">Sign Up</li>
+                        </a>
+                        <a href="views/businessSignUp">
+                            <li class="list-group-item">Business</li>
+                        </a>
+                    </ul>
+                    <div class="card-block" style="color:red">
+                        <a href="#" class="card-link">Privacy Policy</a>
+                        <a href="#" class="card-link">Terms of Serivce</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

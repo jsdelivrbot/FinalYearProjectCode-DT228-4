@@ -1,0 +1,60 @@
+.product-table-utilities {
+  margin-bottom: 1%;
+  padding-right: 15px;
+}
+
+.top-space {
+  margin-top: 2%;
+}
+
+.bottom-space {
+  margin-bottom: 2%;
+}
+
+.alert-container {
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.sized-textarea {
+  min-height: 200px;
+}
+
+.options-wrap {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.values-container {
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.price-delta-input {
+  margin-left: 2%; 
+}
+.option-title {
+  margin-left: 2%;
+}
+.option-value-btn-delete {
+  padding: 0px 5px;
+  vertical-align: baseline;
+  border-width: 0px;
+  color: rgba(125, 125, 125, 1);
+}
+.option-btn {
+  margin-top: 1%;
+  
+}
+.add {
+  margin-right: 2%;
+}
+
+
+.option-btn-container {
+  margin-bottom: 1%;
+}

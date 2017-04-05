@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html ng-app="products">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <% include /imports/angularJS %>
+  <% include /imports/auth0-jwt %>
+  <% include /imports/jQuery %>
+  <% include /imports/bootstrap %>
+  <% include /partials/businessNavBar %>
+  <!--javascripts-->
+  <script src="/javascripts/session.js"></script>
+  <script src="/javascripts/token.js"></script>
+  <script src="/javascripts/session.js"></script>
+  <!--product-->
+  <script src="/product/productsController.js"></script>
+  <script src="/product/productsCreationController.js"></script>
+  <script src="/product/productOptionsDirective.js"></script>
+  <script src="/product/ProductOption.js"></script>
+  <script src="/product/products.js"></script>
+  <script src="/product/Product.js"></script>
+  <!--extra-->
+  <script src="/javascripts/dropper.js"></script>
+  <script src="/javascripts/alert.js"></script>
+  
+  <!--html-->
+  <link href="/product/productOptionsDirective.html" rel="import"/>
+
+  <!--css-->
+  <link href="/stylesheets/products.css" rel="stylesheet" type="text/css" />
+  <title>Quick - Products</title>
+</head>
+
+<body ng-controller="ProductsController">
+  <h4 class="page-title">{{businessName}}'s Products</h4>
+  
+  <!--modal for changing product details -->
+  <div class="modal fade" id="changeProductDetailsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <form name="updateProductsForm" ng-submit="updateProduct()">
+      <div class="modal-content">
+        <!--modal header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">Change Product</h4>
+        </div>
+        <!--modal body-->
+        <div class="modal-body">
+            <!--specifiedID-->
+            <div class="form-group">
+              <label for="message-text" class="control-label">SpecifiedID</label>
+              <input type="text" class="form-control" id="productSpecifiedID" value="{{selectedProduct.specifiedID}}" ng-model="selectedProduct.specifiedID">
+            </div>
+            <!--name-->
+            <div class="form-group">
+              <label for="recipient-name" class="control-label">Name:</label>
+              <input type="text" class="form-control" id="productName" value="{{selectedProduct.name}}" ng-model="selectedProduct.name" required > 
+            </div>
+            <!--price-->
+            <div class="form-group">
+              <label for="message-text" class="control-label">Price:</label>
+              <input type="price" class="form-control" id="productPrice" value="{{selectedProduct.price}}" ng-model="selectedProduct.price" required>
+            </div>
+            <!--description-->
+            <div class="form-group">
+              <label for="message-text" class="control-label">Description</label>
+              <textarea class="form-control sized-textarea" id="productDescription" style="resize: vertical;" ng-model="selectedProduct.description" required>{{selectedProduct.description}}</textarea>
+            </div>
+            <!--alert-->
+            <div>
+              <alert ng-show="showAlert"></alert>
+            </div>
+            <product-options options="selectedProduct.options"></product-options>
+        </div>
+        <!--modal buttons-->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger pull-left" data-dismiss="modal" ng-click="removeProduct(selectedProduct)">Delete Product</button> 
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <input type="submit" class="btn btn-primary" value="Save Changes" ng-disabled="updateProductsForm.$invalid">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--product table-->
+  <div class="container">
+    <div class="row product-table-utilities">
+      <!--search box-->
+      <!--<div class="col-lg-3 col-md-3 col-xs-5">
+        <input type="text" class="form-control" placeholder="Filter" ng-model="filterText">
+      </div>-->
+      <!--add new product button-->
+      <div class="pull-right">
+        <a href = "/views/addProduct">
+          <button class="btn btn-default" type="submit">Add new product</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Edit</th>
+            <th>Added</th>
+            <th>Product ID</th>
+            <th>Sepcified ID</th>
+            <th>Name</th>
+            <th>Price </th>
+            <th>Processing</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody ng-repeat="product in products track by $index">
+          <tr>
+            <td><button class="btn btn-default" data-toggle="modal" data-target="#changeProductDetailsModal" type="submit" ng-click="modalPresented($index)">Edit</button></td>
+            <td class="col-lg-1 col-md-1 col-xs-1">{{product.timestamp | date:'medium'}}</td>
+            <td>{{product.id}}</td>
+            <td class="col-lg-1 col-md-1 col-xs-1">{{product.specifiedID}}</td>
+            <td class="col-lg-4 col-md-4 col-xs-3">{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.processing / 60}} mins</td>
+            <td class="col-lg-4 col-md-4 col-xs-4">{{product.description}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

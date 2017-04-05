@@ -1,0 +1,11 @@
+swarm/
+.vscode/
+*.pyc
+.DS_Store
+sources/
+predictions/
+key.py
+testlocations.txt
+requests.txt
+tags
+.idea/

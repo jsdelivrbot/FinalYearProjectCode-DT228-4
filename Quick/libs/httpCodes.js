@@ -1,0 +1,8 @@
+var codes = exports;
+
+codes.UNPROCESSABLE_ENTITY = 422;
+codes.SUCCESS = 200;
+codes.INTERNAL_SERVER_ERROR = 500;
+codes.BAD_REQUEST = 400;
+codes.FORBIDDEN = 403;
+codes.UNAUTHORIZED = 401;

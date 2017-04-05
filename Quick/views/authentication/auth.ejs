@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="authenticate">
+<head>
+    <% include /imports/angularJS %>
+    <% include /imports/auth0-jwt %>
+    <% include /imports/jQuery %>
+    <% include /partials/navBar %>
+    <script src="../javascripts/authenticate.js"></script>
+    <script src="../javascripts/routes.js"></script>
+    <script src="../javascripts/session.js"></script>
+    <title>
+        Quick - Login
+    </title>
+</head>
+
+<body>
+
+<div>
+    <h4>User login<h4>
+    <div ng-controller="AuthenticateController" ng-init="httpBody.authType='user'">
+        <b>Please Sign In!</b>
+        <p>Email</p>
+        <input type="text" ng-model="httpBody.user.email">
+        <p>Password</p>
+        <input type="password" ng-model="httpBody.user.password">
+        <button type="submit" ng-click="authenticate()" >Sign In</button>
+        {{message}}
+    </div>
+    <h4>Business login<h4>
+    <div ng-controller="AuthenticateController" ng-init="httpBody.authType='business'">
+        <b>Please Sign In!</b>
+        <p>Email</p>
+        <input type="text" ng-model="httpBody.business.email">
+        <p>Password</p>
+        <input type="password" ng-model="httpBody.business.password">
+        <button type="submit" ng-click="authenticate()" >Sign In</button>
+        {{message}}
+    </div>
+</div>
+
+</body>
+</html>
