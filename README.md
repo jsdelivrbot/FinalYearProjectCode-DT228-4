@@ -1,4 +1,4 @@
-## Setting up the app
+## Setting up the project
 For all of the projects in this repository there is a dependency on a configuration file.
 First ensure that the configuration file is present in directory /etc/quick/config.json
 as it contains the details to access the MongoDB and Google Map Distance Matrix API.
