@@ -1,8 +1,8 @@
 ## Setting up the app
-
+For all of the projects in this repository there is a dependency on a configuration file.
 First ensure that the configuration file is present in directory /etc/quick/config.json
-as it contains the details to access the MongoDB and the token secret used for generating JSON Web Tokens (JWTs).
-The configration file can be created using the QuickConfig script else use the following template to stored the information
+as it contains the details to access the MongoDB and Google Map Distance Matrix API.
+The configration file can be created using the QuickConfig script else use the following template to store the information
 ```javascript
 {
   "databases": [
@@ -21,4 +21,4 @@ The configration file can be created using the QuickConfig script else use the f
 }
 ```
 
-Once this has been done run the following commands.
+Once this has been done run the projects can be build, each proejct has another README with information on how to run and build.

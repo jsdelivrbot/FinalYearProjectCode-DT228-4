@@ -1,0 +1,847 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABCMeta	QuickProactive/proactive/priority/priority.py	/^from abc import ABCMeta, abstractmethod$/;"	kind:namespace	line:1
+BackgroundScheduler	QuickProactive/proactive/priority/priorityprocess.py	/^from apscheduler.schedulers.background import BackgroundScheduler$/;"	kind:namespace	line:2
+Business	QuickProactive/proactive/businessobjects/business.py	/^class Business(object):$/;"	kind:class	line:5
+Business	QuickProactive/proactive/dbs/businessdb.py	/^from proactive.businessobjects.business import Business$/;"	kind:namespace	line:2
+Business	QuickProactive/tests/test_business.py	/^from proactive.businessobjects.business import Period, Business$/;"	kind:namespace	line:3
+BusinessDB	QuickProactive/proactive/dbs/__init__.py	/^from .businessdb import BusinessDB$/;"	kind:namespace	line:1
+BusinessDB	QuickProactive/proactive/dbs/businessdb.py	/^class BusinessDB(Database):$/;"	kind:class	line:6
+BusinessDB	QuickProactive/server.py	/^from proactive.dbs import BusinessDB, OrderDB$/;"	kind:namespace	line:9
+CORS	QuickProactive/server.py	/^from flask_cors import CORS, cross_origin$/;"	kind:namespace	line:2
+Configuration	QuickConfig/__init__.py	/^from .configuration import Configuration$/;"	kind:namespace	line:1
+Configuration	QuickConfig/configuration.py	/^class Configuration(object):$/;"	kind:class	line:5
+Configuration	QuickConfig/run.py	/^	from .configuration import Configuration$/;"	kind:namespace	line:163
+Configuration	QuickConfig/run.py	/^	from configuration import Configuration$/;"	kind:namespace	line:160
+Configuration	QuickPrediction/generatedata.py	/^from quickprediction.config.configuration import Configuration$/;"	kind:namespace	line:7
+Configuration	QuickPrediction/quickprediction/config/__init__.py	/^from .configuration import Configuration$/;"	kind:namespace	line:1
+Configuration	QuickPrediction/quickprediction/config/configuration.py	/^class Configuration(object):$/;"	kind:class	line:5
+Configuration	QuickPrediction/quickprediction/config/run.py	/^from .configuration import Configuration$/;"	kind:namespace	line:2
+Configuration	QuickPrediction/run.py	/^from quickprediction.config import Configuration$/;"	kind:namespace	line:8
+Configuration	QuickProactive/proactive/config/__init__.py	/^from .configuration import Configuration$/;"	kind:namespace	line:1
+Configuration	QuickProactive/proactive/config/configuration.py	/^class Configuration(object):$/;"	kind:class	line:5
+Configuration	QuickProactive/proactive/config/run.py	/^	from .configuration import Configuration$/;"	kind:namespace	line:163
+Configuration	QuickProactive/proactive/config/run.py	/^	from configuration import Configuration$/;"	kind:namespace	line:160
+Configuration	QuickProactive/proactive/priority/priorityprocess.py	/^from proactive.config import Configuration$/;"	kind:namespace	line:3
+Configuration	QuickProactive/server.py	/^from proactive.config import Configuration$/;"	kind:namespace	line:3
+Conflict	QuickProactive/proactive/priority/conflict.py	/^class Conflict(object):$/;"	kind:class	line:4
+Conflict	QuickProactive/proactive/priority/taskset.py	/^from .conflict import Conflict, ConflictSet$/;"	kind:namespace	line:5
+ConflictSet	QuickProactive/proactive/priority/conflict.py	/^class ConflictSet(object):$/;"	kind:class	line:111
+ConflictSet	QuickProactive/proactive/priority/taskset.py	/^from .conflict import Conflict, ConflictSet$/;"	kind:namespace	line:5
+DATABASES	QuickConfig/configuration.py	/^  DATABASES = "databases"$/;"	kind:variable	line:10
+DATABASES	QuickPrediction/quickprediction/config/configuration.py	/^  DATABASES = "databases"$/;"	kind:variable	line:10
+DATABASES	QuickProactive/proactive/config/configuration.py	/^  DATABASES = "databases"$/;"	kind:variable	line:10
+DISTANCE	QuickProactive/proactive/travel/travel.py	/^  DISTANCE = "distance"$/;"	kind:variable	line:6
+DURATION	QuickProactive/proactive/travel/travel.py	/^  DURATION = "duration"$/;"	kind:variable	line:5
+DataItem	QuickProactive/proactive/businessobjects/dataitem.py	/^class DataItem(object):$/;"	kind:class	line:1
+DataItem	QuickProactive/proactive/businessobjects/order.py	/^from .dataitem import DataItem$/;"	kind:namespace	line:1
+DataItem	QuickProactive/proactive/priority/taskunit.py	/^from proactive.businessobjects.dataitem import DataItem$/;"	kind:namespace	line:4
+DataItem	QuickProactive/tests/test_taskunit.py	/^from proactive.businessobjects.dataitem import DataItem$/;"	kind:namespace	line:3
+Database	QuickPrediction/quickprediction/dbs/database.py	/^class Database(object):$/;"	kind:class	line:4
+Database	QuickPrediction/quickprediction/dbs/orderdb.py	/^from .database import Database$/;"	kind:namespace	line:1
+Database	QuickPrediction/quickprediction/dbs/predictiondb.py	/^from .database import Database$/;"	kind:namespace	line:1
+Database	QuickProactive/proactive/dbs/businessdb.py	/^from .database import Database$/;"	kind:namespace	line:3
+Database	QuickProactive/proactive/dbs/database.py	/^class Database(object):$/;"	kind:class	line:4
+Database	QuickProactive/proactive/dbs/orderdb.py	/^from .database import Database$/;"	kind:namespace	line:3
+DuplicateProcessException	QuickProactive/proactive/priority/priorityservice.py	/^  class DuplicateProcessException(Exception):$/;"	kind:class	line:4
+DuplicateTaskException	QuickProactive/proactive/priority/exceptions.py	/^class DuplicateTaskException(Exception): # when same task is added to task set twice.$/;"	kind:class	line:13
+DuplicateTaskException	QuickProactive/proactive/priority/taskset.py	/^from .exceptions import DuplicateTaskException$/;"	kind:namespace	line:4
+EXPECTED_EMPLOYEES	QuickPrediction/quickprediction/prediction/swarmtype.py	/^EXPECTED_EMPLOYEES = "EXPECTEDEMPLOYEES"$/;"	kind:variable	line:6
+EXPECTED_EMPLOYEES_FILE_NAME	QuickPrediction/quickprediction/utils/fileutil.py	/^EXPECTED_EMPLOYEES_FILE_NAME = "expectedEmployees.csv"$/;"	kind:variable	line:8
+Flask	QuickProactive/server.py	/^from flask import Flask, request, Response, jsonify$/;"	kind:namespace	line:1
+GMAPS_KEY	QuickConfig/configuration.py	/^  GMAPS_KEY = "gmaps"$/;"	kind:variable	line:9
+GMAPS_KEY	QuickPrediction/quickprediction/config/configuration.py	/^  GMAPS_KEY = "gmaps"$/;"	kind:variable	line:9
+GMAPS_KEY	QuickProactive/proactive/config/configuration.py	/^  GMAPS_KEY = "gmaps"$/;"	kind:variable	line:9
+GmapsFactory	QuickProactive/proactive/travel/travel.py	/^  class GmapsFactory(object):$/;"	kind:class	line:35
+GmapsResponse	QuickProactive/proactive/travel/travel.py	/^class GmapsResponse(object):$/;"	kind:class	line:9
+GoogleMapsClient	QuickProactive/tests/test_travel.py	/^class GoogleMapsClient(object):$/;"	kind:class	line:28
+INIT_FILE_NAME	QuickPrediction/quickprediction/utils/fileutil.py	/^INIT_FILE_NAME = "__init__.py"$/;"	kind:variable	line:20
+Interval	QuickProactive/proactive/priority/conflict.py	/^from intervaltree.interval import Interval$/;"	kind:namespace	line:1
+IntervalTree	QuickPrediction/quickprediction/parsers/timeparser.py	/^from intervaltree import IntervalTree$/;"	kind:namespace	line:3
+IntervalTree	QuickPrediction/quickprediction/utils/intervaltreeutil.py	/^from intervaltree import IntervalTree$/;"	kind:namespace	line:1
+IntervalTree	QuickProactive/proactive/priority/taskset.py	/^from intervaltree import IntervalTree$/;"	kind:namespace	line:1
+InvalidConnectionError	QuickPrediction/quickprediction/dbs/database.py	/^  class InvalidConnectionError(Exception):$/;"	kind:class	line:5
+InvalidConnectionError	QuickProactive/proactive/dbs/database.py	/^  class InvalidConnectionError(Exception):$/;"	kind:class	line:5
+LateDeadlineException	QuickProactive/proactive/priority/exceptions.py	/^class LateDeadlineException(Exception):$/;"	kind:class	line:1
+MaxTaskLimitReachedException	QuickProactive/proactive/priority/exceptions.py	/^class MaxTaskLimitReachedException(Exception):$/;"	kind:class	line:4
+MaxTaskLimitReachedException	QuickProactive/proactive/priority/worker.py	/^from .exceptions import UnkownTaskException, MaxTaskLimitReachedException$/;"	kind:namespace	line:1
+MaxTaskLimitReachedException	QuickProactive/tests/test_worker.py	/^from proactive.priority.exceptions import MaxTaskLimitReachedException$/;"	kind:namespace	line:5
+Metric	QuickProactive/proactive/priority/priorityprocess.py	/^from proactive.travel import Travel, Metric$/;"	kind:namespace	line:4
+Metric	QuickProactive/proactive/travel/__init__.py	/^from .travel import Metric$/;"	kind:namespace	line:3
+Metric	QuickProactive/proactive/travel/travel.py	/^class Metric(object):$/;"	kind:class	line:4
+Metric	QuickProactive/tests/test_travel.py	/^from proactive.travel import Travel, Metric$/;"	kind:namespace	line:2
+ModelFactory	QuickPrediction/quickprediction/prediction/qrunner.py	/^from nupic.frameworks.opf.modelfactory import ModelFactory$/;"	kind:namespace	line:2
+MongoClient	QuickPrediction/quickprediction/dbs/database.py	/^from pymongo import MongoClient$/;"	kind:namespace	line:1
+MongoClient	QuickProactive/proactive/dbs/database.py	/^from pymongo import MongoClient$/;"	kind:namespace	line:1
+ORDER_AMOUNT_FILE_NAME	QuickPrediction/quickprediction/utils/fileutil.py	/^ORDER_AMOUNT_FILE_NAME = "orderAmountData.csv"$/;"	kind:variable	line:6
+ORD_AMOUNT	QuickPrediction/quickprediction/prediction/swarmtype.py	/^ORD_AMOUNT = "ORDERAMOUNT"$/;"	kind:variable	line:3
+ObjectId	QuickPrediction/generatedata.py	/^from bson.objectid import ObjectId$/;"	kind:namespace	line:8
+ObjectId	QuickPrediction/quickprediction/dbs/predictiondb.py	/^from bson.objectid import ObjectId$/;"	kind:namespace	line:2
+ObjectId	QuickProactive/proactive/dbs/businessdb.py	/^from bson.objectid import ObjectId$/;"	kind:namespace	line:1
+ObjectId	QuickProactive/proactive/dbs/orderdb.py	/^from bson import ObjectId$/;"	kind:namespace	line:1
+Order	QuickProactive/proactive/businessobjects/order.py	/^class Order(DataItem):$/;"	kind:class	line:3
+Order	QuickProactive/proactive/dbs/orderdb.py	/^from proactive.businessobjects.order import Order$/;"	kind:namespace	line:2
+Order	QuickProactive/proactive/priority/priorityprocess.py	/^from proactive.businessobjects.order import Order$/;"	kind:namespace	line:5
+Order	QuickProactive/tests/test_order.py	/^from proactive.businessobjects.order import Order$/;"	kind:namespace	line:3
+OrderDB	QuickPrediction/generatedata.py	/^from quickprediction.dbs.orderdb import OrderDB$/;"	kind:namespace	line:6
+OrderDB	QuickPrediction/quickprediction/dbs/orderdb.py	/^class OrderDB(Database):$/;"	kind:class	line:4
+OrderDB	QuickPrediction/run.py	/^from quickprediction.dbs.orderdb import OrderDB$/;"	kind:namespace	line:5
+OrderDB	QuickProactive/proactive/dbs/__init__.py	/^from .orderdb import OrderDB$/;"	kind:namespace	line:2
+OrderDB	QuickProactive/proactive/dbs/orderdb.py	/^class OrderDB(Database):$/;"	kind:class	line:5
+OrderDB	QuickProactive/server.py	/^from proactive.dbs import BusinessDB, OrderDB$/;"	kind:namespace	line:9
+PROCESSED	QuickProactive/proactive/businessobjects/order.py	/^    PROCESSED = "processed"$/;"	kind:variable	line:6
+Period	QuickProactive/proactive/businessobjects/business.py	/^from proactive.priority.period import Period$/;"	kind:namespace	line:2
+Period	QuickProactive/proactive/priority/conflict.py	/^from .period import Period$/;"	kind:namespace	line:2
+Period	QuickProactive/proactive/priority/period.py	/^class Period(object):$/;"	kind:class	line:3
+Period	QuickProactive/tests/test_business.py	/^from proactive.businessobjects.business import Period, Business$/;"	kind:namespace	line:3
+Period	QuickProactive/tests/test_taskset.py	/^from proactive.priority.period import Period$/;"	kind:namespace	line:3
+Predict	QuickPrediction/quickprediction/prediction/predict.py	/^class Predict(object):$/;"	kind:class	line:10
+Predict	QuickPrediction/run.py	/^from quickprediction.prediction.predict import Predict$/;"	kind:namespace	line:7
+PredictionDB	QuickPrediction/quickprediction/dbs/predictiondb.py	/^class PredictionDB(Database):$/;"	kind:class	line:4
+PredictionDB	QuickPrediction/run.py	/^from quickprediction.dbs.predictiondb import PredictionDB$/;"	kind:namespace	line:6
+Priority	QuickProactive/proactive/priority/priority.py	/^class Priority(object):$/;"	kind:class	line:3
+Priority	QuickProactive/proactive/priority/taskunit.py	/^from .priority import Priority$/;"	kind:namespace	line:5
+Priority	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^from .priority import Priority$/;"	kind:namespace	line:3
+PriorityProcess	QuickProactive/proactive/priority/priorityprocess.py	/^class PriorityProcess(object):$/;"	kind:class	line:10
+PriorityProcess	QuickProactive/proactive/priority/priorityservice.py	/^from .priorityprocess import PriorityProcess$/;"	kind:namespace	line:1
+PriorityService	QuickProactive/proactive/priority/priorityservice.py	/^class PriorityService(object):$/;"	kind:class	line:3
+PriorityService	QuickProactive/server.py	/^from proactive.priority.priorityservice import PriorityService$/;"	kind:namespace	line:8
+QOutput	QuickPrediction/quickprediction/prediction/predict.py	/^from quickprediction.utils.qoutput import QOutput$/;"	kind:namespace	line:3
+QOutput	QuickPrediction/quickprediction/prediction/qrunner.py	/^from quickprediction.utils.qoutput import QOutput$/;"	kind:namespace	line:3
+QOutput	QuickPrediction/quickprediction/utils/qoutput.py	/^class QOutput(object):$/;"	kind:class	line:5
+QRunner	QuickPrediction/quickprediction/prediction/predict.py	/^from .qrunner import QRunner$/;"	kind:namespace	line:6
+QRunner	QuickPrediction/quickprediction/prediction/qrunner.py	/^class QRunner(object):$/;"	kind:class	line:6
+QSwarm	QuickPrediction/quickprediction/prediction/predict.py	/^from .qswarm import QSwarm$/;"	kind:namespace	line:5
+QSwarm	QuickPrediction/quickprediction/prediction/qswarm.py	/^class QSwarm(object):$/;"	kind:class	line:9
+Queue	QuickProactive/proactive/priority/workerqueue.py	/^from Queue import Queue$/;"	kind:namespace	line:1
+Response	QuickProactive/server.py	/^from flask import Flask, request, Response, jsonify$/;"	kind:namespace	line:1
+SWARM_DIR_NAME	QuickPrediction/quickprediction/utils/fileutil.py	/^SWARM_DIR_NAME = "swarm"$/;"	kind:variable	line:23
+Status	QuickProactive/proactive/businessobjects/order.py	/^  class Status(object):$/;"	kind:class	line:4
+TOKEN	QuickConfig/configuration.py	/^  TOKEN = "token"$/;"	kind:variable	line:11
+TOKEN	QuickPrediction/quickprediction/config/configuration.py	/^  TOKEN = "token"$/;"	kind:variable	line:11
+TOKEN	QuickProactive/proactive/config/configuration.py	/^  TOKEN = "token"$/;"	kind:variable	line:11
+TaskManager	QuickProactive/proactive/priority/priorityprocess.py	/^from .taskmanager import TaskManager$/;"	kind:namespace	line:6
+TaskManager	QuickProactive/proactive/priority/taskmanager.py	/^class TaskManager(object):$/;"	kind:class	line:15
+TaskManager	QuickProactive/tests/test_taskmanager.py	/^from proactive.priority.taskmanager import TaskManager$/;"	kind:namespace	line:6
+TaskSet	QuickProactive/proactive/priority/taskmanager.py	/^from .taskset import TaskSet$/;"	kind:namespace	line:12
+TaskSet	QuickProactive/proactive/priority/taskset.py	/^class TaskSet(object):$/;"	kind:class	line:8
+TaskSet	QuickProactive/tests/test_taskset.py	/^from proactive.priority.taskset import TaskSet$/;"	kind:namespace	line:2
+TaskUnit	QuickProactive/proactive/priority/priorityprocess.py	/^from .taskunit import TaskUnit$/;"	kind:namespace	line:7
+TaskUnit	QuickProactive/proactive/priority/taskset.py	/^from .taskunit import TaskUnit$/;"	kind:namespace	line:2
+TaskUnit	QuickProactive/proactive/priority/taskunit.py	/^class TaskUnit(Priority):$/;"	kind:class	line:8
+TaskUnit	QuickProactive/tests/test_taskmanager.py	/^from proactive.priority.taskunit import TaskUnit$/;"	kind:namespace	line:7
+TaskUnit	QuickProactive/tests/test_tasksets.py	/^from proactive.priority.taskunit import TaskUnit$/;"	kind:namespace	line:1
+TaskUnit	QuickProactive/tests/test_taskunit.py	/^from proactive.priority.taskunit import TaskUnit$/;"	kind:namespace	line:4
+TaskUnit	QuickProactive/tests/test_taskunitpriorityqueue.py	/^from proactive.priority.taskunit import TaskUnit$/;"	kind:namespace	line:3
+TaskUnit	QuickProactive/tests/test_worker.py	/^from proactive.priority.taskunit import TaskUnit$/;"	kind:namespace	line:4
+TaskUnitPriorityQueue	QuickProactive/proactive/priority/taskset.py	/^from .taskunitpriorityqueue import TaskUnitPriorityQueue$/;"	kind:namespace	line:3
+TaskUnitPriorityQueue	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^class TaskUnitPriorityQueue(object):$/;"	kind:class	line:6
+TaskUnitPriorityQueue	QuickProactive/tests/test_taskunitpriorityqueue.py	/^from proactive.priority.taskunitpriorityqueue import TaskUnitPriorityQueue$/;"	kind:namespace	line:2
+TestBusiness	QuickProactive/tests/test_business.py	/^class TestBusiness(TestCase):$/;"	kind:class	line:28
+TestCase	QuickProactive/tests/test_business.py	/^from unittest import TestCase$/;"	kind:namespace	line:1
+TestCase	QuickProactive/tests/test_order.py	/^from unittest import TestCase$/;"	kind:namespace	line:2
+TestCase	QuickProactive/tests/test_release.py	/^from unittest import TestCase$/;"	kind:namespace	line:2
+TestCase	QuickProactive/tests/test_taskmanager.py	/^from unittest import TestCase$/;"	kind:namespace	line:3
+TestCase	QuickProactive/tests/test_taskset.py	/^from unittest import TestCase$/;"	kind:namespace	line:1
+TestCase	QuickProactive/tests/test_taskunit.py	/^from unittest import TestCase$/;"	kind:namespace	line:2
+TestCase	QuickProactive/tests/test_taskunitpriorityqueue.py	/^from unittest import TestCase$/;"	kind:namespace	line:1
+TestCase	QuickProactive/tests/test_timeutil.py	/^from unittest import TestCase$/;"	kind:namespace	line:3
+TestCase	QuickProactive/tests/test_travel.py	/^from unittest import TestCase$/;"	kind:namespace	line:1
+TestCase	QuickProactive/tests/test_worker.py	/^from unittest import TestCase$/;"	kind:namespace	line:1
+TestCase	QuickProactive/tests/test_workerqueue.py	/^from unittest import TestCase$/;"	kind:namespace	line:1
+TestLoader	QuickProactive/tests/__init__.py	/^from unittest import TestLoader, TextTestRunner, TestSuite$/;"	kind:namespace	line:1
+TestOrder	QuickProactive/tests/__init__.py	/^from .test_order import TestOrder$/;"	kind:namespace	line:4
+TestOrder	QuickProactive/tests/test_order.py	/^class TestOrder(TestCase):$/;"	kind:class	line:6
+TestPeriod	QuickProactive/tests/__init__.py	/^from .test_business import TestPeriod$/;"	kind:namespace	line:9
+TestPeriod	QuickProactive/tests/test_business.py	/^class TestPeriod(TestCase):$/;"	kind:class	line:6
+TestRelease	QuickProactive/tests/__init__.py	/^from .test_release import TestRelease$/;"	kind:namespace	line:5
+TestRelease	QuickProactive/tests/test_release.py	/^class TestRelease(TestCase):$/;"	kind:class	line:7
+TestSuite	QuickProactive/tests/__init__.py	/^from unittest import TestLoader, TextTestRunner, TestSuite$/;"	kind:namespace	line:1
+TestTaskManager	QuickProactive/tests/__init__.py	/^from .test_taskmanager import TestTaskManager$/;"	kind:namespace	line:8
+TestTaskManager	QuickProactive/tests/test_taskmanager.py	/^class TestTaskManager(TestCase):$/;"	kind:class	line:17
+TestTaskSet	QuickProactive/tests/__init__.py	/^from .test_taskset import TestTaskSet$/;"	kind:namespace	line:12
+TestTaskSet	QuickProactive/tests/test_taskset.py	/^class TestTaskSet(TestCase):$/;"	kind:class	line:7
+TestTaskUnit	QuickProactive/tests/__init__.py	/^from .test_taskunit import TestTaskUnit$/;"	kind:namespace	line:3
+TestTaskUnit	QuickProactive/tests/test_taskunit.py	/^class TestTaskUnit(TestCase):$/;"	kind:class	line:10
+TestTaskUnitPriorityQueue	QuickProactive/tests/__init__.py	/^from .test_taskunitpriorityqueue import TestTaskUnitPriorityQueue$/;"	kind:namespace	line:2
+TestTaskUnitPriorityQueue	QuickProactive/tests/test_taskunitpriorityqueue.py	/^class TestTaskUnitPriorityQueue(TestCase):$/;"	kind:class	line:6
+TestTimeutil	QuickProactive/tests/__init__.py	/^from .test_timeutil import TestTimeutil$/;"	kind:namespace	line:6
+TestTimeutil	QuickProactive/tests/test_timeutil.py	/^class TestTimeutil(TestCase):$/;"	kind:class	line:6
+TestTravel	QuickProactive/tests/__init__.py	/^from .test_travel import TestTravel$/;"	kind:namespace	line:7
+TestTravel	QuickProactive/tests/test_travel.py	/^class TestTravel(TestCase):$/;"	kind:class	line:37
+TestWorker	QuickProactive/tests/__init__.py	/^from .test_worker import TestWorker$/;"	kind:namespace	line:10
+TestWorker	QuickProactive/tests/test_worker.py	/^class TestWorker(TestCase):$/;"	kind:class	line:8
+TestWorkerQueue	QuickProactive/tests/__init__.py	/^from .test_workerqueue import TestWorkerQueue$/;"	kind:namespace	line:11
+TestWorkerQueue	QuickProactive/tests/test_workerqueue.py	/^class TestWorkerQueue(TestCase):$/;"	kind:class	line:6
+TextTestRunner	QuickProactive/tests/__init__.py	/^from unittest import TestLoader, TextTestRunner, TestSuite$/;"	kind:namespace	line:1
+Travel	QuickProactive/proactive/priority/priorityprocess.py	/^from proactive.travel import Travel, Metric$/;"	kind:namespace	line:4
+Travel	QuickProactive/proactive/travel/__init__.py	/^from .travel import Travel$/;"	kind:namespace	line:2
+Travel	QuickProactive/proactive/travel/travel.py	/^class Travel(object):$/;"	kind:class	line:34
+Travel	QuickProactive/tests/test_travel.py	/^from proactive.travel import Travel, Metric$/;"	kind:namespace	line:2
+UNPROCESSED	QuickProactive/proactive/businessobjects/order.py	/^    UNPROCESSED = "unprocessed"$/;"	kind:variable	line:5
+UnassignableTaskException	QuickProactive/proactive/priority/exceptions.py	/^class UnassignableTaskException(Exception):$/;"	kind:class	line:7
+UnfinishedTasksHeldByWorkerException	QuickProactive/proactive/priority/exceptions.py	/^class UnfinishedTasksHeldByWorkerException(Exception):$/;"	kind:class	line:16
+UnkownTaskException	QuickProactive/proactive/priority/exceptions.py	/^class UnkownTaskException(Exception):$/;"	kind:class	line:10
+UnkownTaskException	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^from .exceptions import UnkownTaskException$/;"	kind:namespace	line:4
+UnkownTaskException	QuickProactive/proactive/priority/worker.py	/^from .exceptions import UnkownTaskException, MaxTaskLimitReachedException$/;"	kind:namespace	line:1
+UnkownWorkerException	QuickProactive/proactive/priority/exceptions.py	/^class UnkownWorkerException(Exception):$/;"	kind:class	line:19
+Worker	QuickProactive/proactive/priority/taskmanager.py	/^from .worker import Worker$/;"	kind:namespace	line:11
+Worker	QuickProactive/proactive/priority/worker.py	/^class Worker(object):$/;"	kind:class	line:3
+Worker	QuickProactive/server.py	/^from proactive.priority.worker import Worker$/;"	kind:namespace	line:10
+Worker	QuickProactive/tests/test_taskmanager.py	/^from proactive.priority.worker import Worker$/;"	kind:namespace	line:12
+Worker	QuickProactive/tests/test_taskunit.py	/^from proactive.priority.worker import Worker$/;"	kind:namespace	line:7
+Worker	QuickProactive/tests/test_worker.py	/^from proactive.priority.worker import Worker$/;"	kind:namespace	line:3
+Worker	QuickProactive/tests/test_workerqueue.py	/^from proactive.priority.worker import Worker$/;"	kind:namespace	line:3
+WorkerQueue	QuickProactive/proactive/priority/taskmanager.py	/^from .workerqueue import WorkerQueue$/;"	kind:namespace	line:10
+WorkerQueue	QuickProactive/proactive/priority/workerqueue.py	/^class WorkerQueue(object):$/;"	kind:class	line:3
+WorkerQueue	QuickProactive/tests/test_workerqueue.py	/^from proactive.priority.workerqueue import WorkerQueue$/;"	kind:namespace	line:2
+_CONFIG_DIR	QuickConfig/configuration.py	/^  _CONFIG_DIR = "\/etc\/quick\/"$/;"	kind:variable	line:15
+_CONFIG_DIR	QuickPrediction/quickprediction/config/configuration.py	/^  _CONFIG_DIR = "\/etc\/quick\/"$/;"	kind:variable	line:15
+_CONFIG_DIR	QuickProactive/proactive/config/configuration.py	/^  _CONFIG_DIR = "\/etc\/quick\/"$/;"	kind:variable	line:15
+_CONFIG_FILENAME	QuickConfig/configuration.py	/^  _CONFIG_FILENAME = "config.json"$/;"	kind:variable	line:13
+_CONFIG_FILENAME	QuickPrediction/quickprediction/config/configuration.py	/^  _CONFIG_FILENAME = "config.json"$/;"	kind:variable	line:13
+_CONFIG_FILENAME	QuickProactive/proactive/config/configuration.py	/^  _CONFIG_FILENAME = "config.json"$/;"	kind:variable	line:13
+_CONFIG_FILE_PATH	QuickConfig/configuration.py	/^  _CONFIG_FILE_PATH = "\/etc\/quick\/%s" % _CONFIG_FILENAME$/;"	kind:variable	line:14
+_CONFIG_FILE_PATH	QuickPrediction/quickprediction/config/configuration.py	/^  _CONFIG_FILE_PATH = "\/etc\/quick\/%s" % _CONFIG_FILENAME$/;"	kind:variable	line:14
+_CONFIG_FILE_PATH	QuickProactive/proactive/config/configuration.py	/^  _CONFIG_FILE_PATH = "\/etc\/quick\/%s" % _CONFIG_FILENAME$/;"	kind:variable	line:14
+_FILE_TEMPLATE	QuickConfig/configuration.py	/^  _FILE_TEMPLATE = {"databases": []}$/;"	kind:variable	line:20
+_FILE_TEMPLATE	QuickPrediction/quickprediction/config/configuration.py	/^  _FILE_TEMPLATE = {"databases": []}$/;"	kind:variable	line:20
+_FILE_TEMPLATE	QuickProactive/proactive/config/configuration.py	/^  _FILE_TEMPLATE = {"databases": []}$/;"	kind:variable	line:20
+_GMAPS	QuickConfig/configuration.py	/^  _GMAPS = "gmaps"$/;"	kind:variable	line:18
+_GMAPS	QuickPrediction/quickprediction/config/configuration.py	/^  _GMAPS = "gmaps"$/;"	kind:variable	line:18
+_GMAPS	QuickProactive/proactive/config/configuration.py	/^  _GMAPS = "gmaps"$/;"	kind:variable	line:18
+_MONGO_DATABASES	QuickConfig/configuration.py	/^  _MONGO_DATABASES = "databases"$/;"	kind:variable	line:17
+_MONGO_DATABASES	QuickPrediction/quickprediction/config/configuration.py	/^  _MONGO_DATABASES = "databases"$/;"	kind:variable	line:17
+_MONGO_DATABASES	QuickProactive/proactive/config/configuration.py	/^  _MONGO_DATABASES = "databases"$/;"	kind:variable	line:17
+_MONGO_OBJECT_NAME	QuickConfig/configuration.py	/^  _MONGO_OBJECT_NAME = "mongodb"$/;"	kind:variable	line:16
+_MONGO_OBJECT_NAME	QuickPrediction/quickprediction/config/configuration.py	/^  _MONGO_OBJECT_NAME = "mongodb"$/;"	kind:variable	line:16
+_MONGO_OBJECT_NAME	QuickProactive/proactive/config/configuration.py	/^  _MONGO_OBJECT_NAME = "mongodb"$/;"	kind:variable	line:16
+_TOKEN	QuickConfig/configuration.py	/^  _TOKEN = "token"$/;"	kind:variable	line:19
+_TOKEN	QuickPrediction/quickprediction/config/configuration.py	/^  _TOKEN = "token"$/;"	kind:variable	line:19
+_TOKEN	QuickProactive/proactive/config/configuration.py	/^  _TOKEN = "token"$/;"	kind:variable	line:19
+__all__	QuickPrediction/quickprediction/parsers/timeparser.py	/^__all__ = ["extractHourlyOrders", "extractHourlyConflicts"]$/;"	kind:variable	line:7
+__createSwarmWorkDir	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __createSwarmWorkDir(self):$/;"	kind:member	line:109
+__dbCompare	QuickConfig/configuration.py	/^  def __dbCompare(self, db1, db2):$/;"	kind:member	line:100
+__dbCompare	QuickPrediction/quickprediction/config/configuration.py	/^  def __dbCompare(self, db1, db2):$/;"	kind:member	line:100
+__dbCompare	QuickProactive/proactive/config/configuration.py	/^  def __dbCompare(self, db1, db2):$/;"	kind:member	line:100
+__dict__	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def __dict__(self):$/;"	kind:member	line:87
+__getSwarmDescObject	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __getSwarmDescObject(self, swarmType):$/;"	kind:member	line:147
+__init__	QuickPrediction/quickprediction/dbs/database.py	/^  def __init__(self, uri, port, dbName, user=None, password=None):$/;"	kind:member	line:8
+__init__	QuickPrediction/quickprediction/dbs/orderdb.py	/^  def __init__(self, uri, port, dbName, user=None, password=None):$/;"	kind:member	line:5
+__init__	QuickPrediction/quickprediction/dbs/predictiondb.py	/^  def __init__(self, uri, port, dbName, user=None, password=None):$/;"	kind:member	line:5
+__init__	QuickPrediction/quickprediction/prediction/predict.py	/^  def __init__(self, businessID, swarmType, rootDir):$/;"	kind:member	line:11
+__init__	QuickPrediction/quickprediction/prediction/qrunner.py	/^  def __init__(self):$/;"	kind:member	line:8
+__init__	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __init__(self, swarmType, businessDir, businessID):$/;"	kind:member	line:10
+__init__	QuickPrediction/quickprediction/utils/qoutput.py	/^  def __init__(self, filename):$/;"	kind:member	line:7
+__init__	QuickProactive/proactive/businessobjects/business.py	/^  def __init__(self, businessID, name, address, contactNumber, coordinates, period):$/;"	kind:member	line:6
+__init__	QuickProactive/proactive/businessobjects/dataitem.py	/^  def __init__(self):$/;"	kind:member	line:2
+__init__	QuickProactive/proactive/businessobjects/order.py	/^  def __init__(self, orderID, status, processing, customerCoordinates, travelMode, createdAt, cost, products):$/;"	kind:member	line:8
+__init__	QuickProactive/proactive/dbs/businessdb.py	/^  def __init__(self, uri, port, dbName, user=None, password=None):$/;"	kind:member	line:7
+__init__	QuickProactive/proactive/dbs/database.py	/^  def __init__(self, uri, port, dbName, user=None, password=None):$/;"	kind:member	line:9
+__init__	QuickProactive/proactive/dbs/orderdb.py	/^  def __init__(self, uri, port, dbName, user=None, password=None):$/;"	kind:member	line:6
+__init__	QuickProactive/proactive/priority/conflict.py	/^  def __init__(self, conflicts):$/;"	kind:member	line:115
+__init__	QuickProactive/proactive/priority/conflict.py	/^  def __init__(self, intervals):$/;"	kind:member	line:8
+__init__	QuickProactive/proactive/priority/period.py	/^  def __init__(self, begin, end):$/;"	kind:member	line:4
+__init__	QuickProactive/proactive/priority/priorityprocess.py	/^  def __init__(self, business, ordersDBConn, multitask, refresh=5000):$/;"	kind:member	line:11
+__init__	QuickProactive/proactive/priority/priorityservice.py	/^  def __init__(self, orderDBConn):$/;"	kind:member	line:7
+__init__	QuickProactive/proactive/priority/taskmanager.py	/^  def __init__(self, period, multitask):$/;"	kind:member	line:16
+__init__	QuickProactive/proactive/priority/taskset.py	/^  def __init__(self):$/;"	kind:member	line:12
+__init__	QuickProactive/proactive/priority/taskunit.py	/^  def __init__(self, createdAt, deadline, profit, processing, taskID, release=None, data=None):$/;"	kind:member	line:9
+__init__	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def __init__(self, items=None):$/;"	kind:member	line:7
+__init__	QuickProactive/proactive/priority/worker.py	/^  def __init__(self, workerID, begin, end, multitask):$/;"	kind:member	line:4
+__init__	QuickProactive/proactive/priority/workerqueue.py	/^  def __init__(self):$/;"	kind:member	line:4
+__init__	QuickProactive/proactive/travel/travel.py	/^  def __init__(self, gmapsKey):$/;"	kind:member	line:45
+__init__	QuickProactive/proactive/travel/travel.py	/^  def __init__(self, gmapsResponse):$/;"	kind:member	line:14
+__init__	QuickProactive/tests/test_travel.py	/^  def __init__(self):$/;"	kind:member	line:29
+__init__.py	QuickConfig/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickPrediction/quickprediction/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickPrediction/quickprediction/config/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickPrediction/quickprediction/dbs/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickPrediction/quickprediction/parsers/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickPrediction/quickprediction/prediction/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickPrediction/quickprediction/utils/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/businessobjects/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/config/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/dbs/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/priority/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/travel/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/proactive/utils/__init__.py	1;"	kind:file	line:1
+__init__.py	QuickProactive/tests/__init__.py	1;"	kind:file	line:1
+__iter__	QuickProactive/proactive/priority/conflict.py	/^  def __iter__(self):$/;"	kind:member	line:93
+__iter__	QuickProactive/proactive/priority/taskset.py	/^  def __iter__(self):$/;"	kind:member	line:123
+__iter__	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def __iter__(self):$/;"	kind:member	line:16
+__len__	QuickProactive/proactive/priority/conflict.py	/^  def __len__(self):$/;"	kind:member	line:105
+__lt__	QuickProactive/proactive/priority/priority.py	/^  def __lt__(self, other):$/;"	kind:member	line:15
+__lt__	QuickProactive/proactive/priority/taskunit.py	/^  def __lt__(self, other):$/;"	kind:member	line:131
+__metaclass__	QuickProactive/proactive/priority/priority.py	/^  __metaclass__ = ABCMeta$/;"	kind:variable	line:8
+__monitor	QuickProactive/proactive/priority/priorityprocess.py	/^  def __monitor(self):$/;"	kind:member	line:53
+__newSwarmDescription	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __newSwarmDescription(self, swarmDescTemplate, businessDir):$/;"	kind:member	line:18
+__readConfigFile	QuickConfig/configuration.py	/^  def __readConfigFile(self):$/;"	kind:member	line:170
+__readConfigFile	QuickPrediction/quickprediction/config/configuration.py	/^  def __readConfigFile(self):$/;"	kind:member	line:170
+__readConfigFile	QuickProactive/proactive/config/configuration.py	/^  def __readConfigFile(self):$/;"	kind:member	line:170
+__readUnprocessedOrders	QuickProactive/proactive/priority/priorityprocess.py	/^  def __readUnprocessedOrders(self, excluding):$/;"	kind:member	line:84
+__responseCache	QuickProactive/proactive/travel/travel.py	/^  __responseCache = {}$/;"	kind:variable	line:42
+__str__	QuickProactive/proactive/priority/conflict.py	/^  def __str__(self):$/;"	kind:member	line:172
+__str__	QuickProactive/proactive/priority/conflict.py	/^  def __str__(self):$/;"	kind:member	line:97
+__str__	QuickProactive/proactive/priority/period.py	/^  def __str__(self):$/;"	kind:member	line:29
+__str__	QuickProactive/proactive/priority/taskunit.py	/^  def __str__(self):$/;"	kind:member	line:154
+__str__	QuickProactive/proactive/priority/worker.py	/^  def __str__(self):$/;"	kind:member	line:67
+__str__	QuickProactive/proactive/priority/workerqueue.py	/^  def __str__(self):$/;"	kind:member	line:55
+__streamSourceFormat	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __streamSourceFormat(self):$/;"	kind:member	line:55
+__swarm	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __swarm(self):$/;"	kind:member	line:128
+__writeConfigFile	QuickConfig/configuration.py	/^  def __writeConfigFile(self, contents):$/;"	kind:member	line:178
+__writeConfigFile	QuickPrediction/quickprediction/config/configuration.py	/^  def __writeConfigFile(self, contents):$/;"	kind:member	line:178
+__writeConfigFile	QuickProactive/proactive/config/configuration.py	/^  def __writeConfigFile(self, contents):$/;"	kind:member	line:178
+__writeDataToFile	QuickPrediction/quickprediction/prediction/predict.py	/^  def __writeDataToFile(self, data, swarmType):$/;"	kind:member	line:59
+__writeModelParams	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def __writeModelParams(self, modelParams):$/;"	kind:member	line:73
+_addTaskToTree	QuickProactive/proactive/priority/taskset.py	/^  def _addTaskToTree(self, task):$/;"	kind:member	line:30
+_assignTaskBySwap	QuickProactive/proactive/priority/taskmanager.py	/^  def _assignTaskBySwap(self, task):$/;"	kind:member	line:233
+_assignTaskToAnyWorkerOrFail	QuickProactive/proactive/priority/taskmanager.py	/^  def _assignTaskToAnyWorkerOrFail(self, task):$/;"	kind:member	line:209
+_conflictPath	QuickProactive/proactive/priority/taskset.py	/^  def _conflictPath(self, interval, intervalTree):$/;"	kind:member	line:59
+_customerArrivalTime	QuickProactive/proactive/priority/priorityprocess.py	/^  def _customerArrivalTime(self, customerCoordinates, travelMode):$/;"	kind:member	line:88
+_findLatestInterval	QuickProactive/proactive/priority/taskset.py	/^  def _findLatestInterval(self, intervals):$/;"	kind:member	line:46
+_finishTask	QuickProactive/proactive/priority/taskmanager.py	/^  def _finishTask(self, taskID):$/;"	kind:member	line:93
+_getTask	QuickProactive/proactive/priority/taskmanager.py	/^  def _getTask(self, taskID):$/;"	kind:member	line:81
+_intervalConflictAlreadyDetected	QuickProactive/proactive/priority/taskset.py	/^  def _intervalConflictAlreadyDetected(self, interval, conflicts):$/;"	kind:member	line:89
+_orIntervals	QuickProactive/proactive/priority/taskset.py	/^  def _orIntervals(self, intervalListA, intervalListB):$/;"	kind:member	line:56
+_remove	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def _remove(self, taskID):$/;"	kind:member	line:37
+_setStatus	QuickProactive/proactive/priority/conflict.py	/^  def _setStatus(self):$/;"	kind:member	line:73
+_taskSet	QuickProactive/tests/test_taskset.py	/^  def _taskSet(self):$/;"	kind:member	line:12
+_workersAvailableInPeriod	QuickProactive/proactive/priority/taskmanager.py	/^  def _workersAvailableInPeriod(self, begin, end):$/;"	kind:member	line:111
+abstractmethod	QuickProactive/proactive/priority/priority.py	/^from abc import ABCMeta, abstractmethod$/;"	kind:namespace	line:1
+add	QuickProactive/proactive/priority/taskset.py	/^  def add(self, task):$/;"	kind:member	line:22
+addGoogleMapsKey	QuickConfig/configuration.py	/^  def addGoogleMapsKey(self, key):$/;"	kind:member	line:112
+addGoogleMapsKey	QuickPrediction/quickprediction/config/configuration.py	/^  def addGoogleMapsKey(self, key):$/;"	kind:member	line:112
+addGoogleMapsKey	QuickProactive/proactive/config/configuration.py	/^  def addGoogleMapsKey(self, key):$/;"	kind:member	line:112
+addMongoDatabase	QuickConfig/configuration.py	/^  def addMongoDatabase(self, uri, port, database, username=None, password=None):$/;"	kind:member	line:54
+addMongoDatabase	QuickPrediction/quickprediction/config/configuration.py	/^  def addMongoDatabase(self, uri, port, database, username=None, password=None):$/;"	kind:member	line:54
+addMongoDatabase	QuickProactive/proactive/config/configuration.py	/^  def addMongoDatabase(self, uri, port, database, username=None, password=None):$/;"	kind:member	line:54
+addSeconds	QuickProactive/proactive/utils/timeutil.py	/^def addSeconds(time, seconds):$/;"	kind:function	line:3
+addSeconds	QuickProactive/tests/test_release.py	/^from proactive.utils.timeutil import addSeconds$/;"	kind:namespace	line:4
+addTask	QuickProactive/proactive/priority/taskmanager.py	/^  def addTask(self, task):$/;"	kind:member	line:56
+addTasks	QuickProactive/proactive/priority/taskmanager.py	/^  def addTasks(self, tasks):$/;"	kind:member	line:69
+addTokenSecretKey	QuickConfig/configuration.py	/^  def addTokenSecretKey(self, secret):$/;"	kind:member	line:131
+addTokenSecretKey	QuickPrediction/quickprediction/config/configuration.py	/^  def addTokenSecretKey(self, secret):$/;"	kind:member	line:131
+addTokenSecretKey	QuickProactive/proactive/config/configuration.py	/^  def addTokenSecretKey(self, secret):$/;"	kind:member	line:131
+addWorker	QuickProactive/proactive/priority/taskmanager.py	/^  def addWorker(self, worker):$/;"	kind:member	line:154
+addWorkers	QuickProactive/proactive/priority/priorityprocess.py	/^  def addWorkers(self, workers):$/;"	kind:member	line:121
+addWorkers	QuickProactive/proactive/priority/taskmanager.py	/^  def addWorkers(self, workers):$/;"	kind:member	line:164
+addWorkers	QuickProactive/server.py	/^def addWorkers():$/;"	kind:function	line:162
+address	QuickProactive/proactive/businessobjects/business.py	/^  def address(self):$/;"	kind:member	line:26
+all	QuickProactive/proactive/priority/conflict.py	/^  def all(self):$/;"	kind:member	line:119
+allGreaterThan	QuickProactive/proactive/priority/conflict.py	/^  def allGreaterThan(self, value):$/;"	kind:member	line:131
+allLessThanOrEqual	QuickProactive/proactive/priority/conflict.py	/^  def allLessThanOrEqual(self, value):$/;"	kind:member	line:123
+analyseWorkersForNeededTaskSet	QuickProactive/proactive/priority/taskmanager.py	/^  def analyseWorkersForNeededTaskSet(self):$/;"	kind:member	line:119
+app	QuickProactive/server.py	/^app = Flask(__name__)$/;"	kind:variable	line:13
+argparse	QuickConfig/run.py	/^import argparse$/;"	kind:namespace	line:1
+argparse	QuickPrediction/generatedata.py	/^import argparse$/;"	kind:namespace	line:2
+argparse	QuickPrediction/quickprediction/config/run.py	/^import argparse$/;"	kind:namespace	line:1
+argparse	QuickPrediction/run.py	/^import argparse$/;"	kind:namespace	line:1
+argparse	QuickProactive/proactive/config/run.py	/^import argparse$/;"	kind:namespace	line:1
+args	QuickPrediction/generatedata.py	/^  args = parser.parse_args()$/;"	kind:variable	line:19
+args	QuickPrediction/run.py	/^  args = args().parse_args()$/;"	kind:variable	line:50
+args	QuickPrediction/run.py	/^def args():$/;"	kind:function	line:15
+asDict	QuickProactive/proactive/businessobjects/dataitem.py	/^  def asDict(self):$/;"	kind:member	line:5
+asDict	QuickProactive/proactive/businessobjects/order.py	/^  def asDict(self):$/;"	kind:member	line:51
+asDict	QuickProactive/proactive/priority/conflict.py	/^  def asDict(self):$/;"	kind:member	line:157
+asDict	QuickProactive/proactive/priority/conflict.py	/^  def asDict(self):$/;"	kind:member	line:83
+asDict	QuickProactive/proactive/priority/priority.py	/^  def asDict(self):$/;"	kind:member	line:19
+asDict	QuickProactive/proactive/priority/taskunit.py	/^  def asDict(self):$/;"	kind:member	line:137
+asDict	QuickProactive/proactive/priority/worker.py	/^  def asDict(self):$/;"	kind:member	line:59
+assignTask	QuickProactive/proactive/priority/worker.py	/^  def assignTask(self, task):$/;"	kind:member	line:34
+assignTasksToWorkers	QuickProactive/proactive/priority/taskmanager.py	/^  def assignTasksToWorkers(self):$/;"	kind:member	line:184
+assignWorker	QuickProactive/proactive/priority/taskunit.py	/^  def assignWorker(self, worker):$/;"	kind:member	line:81
+assignedTasks	QuickProactive/proactive/priority/taskmanager.py	/^  def assignedTasks(self):$/;"	kind:member	line:33
+assignedTasks	QuickProactive/proactive/priority/worker.py	/^  def assignedTasks(self):$/;"	kind:member	line:18
+assignedWorker	QuickProactive/proactive/priority/taskunit.py	/^  def assignedWorker(self):$/;"	kind:member	line:88
+availableInPeriod	QuickProactive/proactive/priority/worker.py	/^  def availableInPeriod(self, begin, end):$/;"	kind:member	line:55
+availableWorkers	QuickProactive/proactive/priority/conflict.py	/^  def availableWorkers(self):$/;"	kind:member	line:50
+availableWorkers	QuickProactive/proactive/priority/conflict.py	/^  def availableWorkers(self, availableWorkers):$/;"	kind:member	line:58
+availableWorkersDuringPeriod	QuickProactive/proactive/priority/workerqueue.py	/^  def availableWorkersDuringPeriod(self, begin, end):$/;"	kind:member	line:34
+begin	QuickPrediction/quickprediction/prediction/predict.py	/^  def begin(self, data, **kwargs):$/;"	kind:member	line:29
+begin	QuickProactive/server.py	/^def begin():$/;"	kind:function	line:43
+bulkop	QuickPrediction/generatedata.py	/^  bulkop = orderDB.bulkop$/;"	kind:variable	line:33
+bulkop	QuickPrediction/quickprediction/dbs/orderdb.py	/^  def bulkop(self):$/;"	kind:member	line:21
+business.py	QuickProactive/proactive/businessobjects/business.py	1;"	kind:file	line:1
+businessID	QuickProactive/proactive/businessobjects/business.py	/^  def businessID(self):$/;"	kind:member	line:18
+businessdb.py	QuickProactive/proactive/dbs/businessdb.py	1;"	kind:file	line:1
+businessid	QuickPrediction/run.py	/^  businessid = args.businessid$/;"	kind:variable	line:52
+ceil	QuickPrediction/quickprediction/parsers/timeparser.py	/^  from math import ceil$/;"	kind:namespace	line:133
+ceil	QuickProactive/proactive/priority/taskmanager.py	/^    from math import ceil$/;"	kind:namespace	line:150
+ceil	QuickProactive/tests/test_taskmanager.py	/^from math import ceil$/;"	kind:namespace	line:2
+checkRoot	QuickConfig/configuration.py	/^  def checkRoot():$/;"	kind:member	line:23
+checkRoot	QuickPrediction/quickprediction/config/configuration.py	/^  def checkRoot():$/;"	kind:member	line:23
+checkRoot	QuickProactive/proactive/config/configuration.py	/^  def checkRoot():$/;"	kind:member	line:23
+close	QuickPrediction/quickprediction/dbs/database.py	/^  def close(self):$/;"	kind:member	line:30
+close	QuickPrediction/quickprediction/utils/qoutput.py	/^  def close(self):$/;"	kind:member	line:23
+close	QuickProactive/proactive/dbs/database.py	/^  def close(self):$/;"	kind:member	line:31
+config	QuickPrediction/generatedata.py	/^config = Configuration()$/;"	kind:variable	line:11
+config	QuickPrediction/run.py	/^  config = Configuration()$/;"	kind:variable	line:57
+config	QuickProactive/proactive/__init__.py	/^import proactive.config$/;"	kind:namespace	line:1
+config	QuickProactive/server.py	/^config = Configuration()$/;"	kind:variable	line:14
+configuration.py	QuickConfig/configuration.py	1;"	kind:file	line:1
+configuration.py	QuickPrediction/quickprediction/config/configuration.py	1;"	kind:file	line:1
+configuration.py	QuickProactive/proactive/config/configuration.py	1;"	kind:file	line:1
+conflict.py	QuickProactive/proactive/priority/conflict.py	1;"	kind:file	line:1
+conflictPath	QuickPrediction/quickprediction/utils/intervaltreeutil.py	/^def conflictPath(interval, intervalTree):$/;"	kind:function	line:16
+connString	QuickPrediction/quickprediction/dbs/mongoutil.py	/^def connString(uri, port, database, user=None, password=None):$/;"	kind:function	line:1
+connString	QuickProactive/proactive/dbs/mongoutil.py	/^def connString(uri, port, database, user=None, password=None):$/;"	kind:function	line:1
+connect	QuickPrediction/quickprediction/dbs/database.py	/^  def connect(self):$/;"	kind:member	line:19
+connect	QuickProactive/proactive/dbs/database.py	/^  def connect(self):$/;"	kind:member	line:20
+contactNumber	QuickProactive/proactive/businessobjects/business.py	/^  def contactNumber(self):$/;"	kind:member	line:30
+contains	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def contains(self, taskID):$/;"	kind:member	line:64
+coord	QuickProactive/proactive/travel/__init__.py	/^from . import coord$/;"	kind:namespace	line:1
+coord.py	QuickProactive/proactive/travel/coord.py	1;"	kind:file	line:1
+coordinate	QuickProactive/proactive/travel/coord.py	/^def coordinate(lat, lng):$/;"	kind:function	line:1
+coordinates	QuickProactive/proactive/businessobjects/business.py	/^  def coordinates(self):$/;"	kind:member	line:34
+copy	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^from copy import copy$/;"	kind:namespace	line:2
+cost	QuickProactive/proactive/businessobjects/order.py	/^  def cost(self):$/;"	kind:member	line:40
+count	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def count(self):$/;"	kind:member	line:74
+createModel	QuickPrediction/quickprediction/prediction/qrunner.py	/^  def createModel(self, modelParams, predictedField):$/;"	kind:member	line:12
+createdAt	QuickProactive/proactive/businessobjects/order.py	/^  def createdAt(self):$/;"	kind:member	line:44
+createdAt	QuickProactive/proactive/priority/taskunit.py	/^  def createdAt(self):$/;"	kind:member	line:92
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:17
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:25
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:33
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:41
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:49
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:57
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:65
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:73
+createdAt	QuickProactive/tests/test_tasksets.py	/^    createdAt=tHour(0, 0),$/;"	kind:variable	line:81
+createdAtISO	QuickProactive/proactive/priority/taskunit.py	/^  def createdAtISO(self):$/;"	kind:member	line:96
+cross_origin	QuickProactive/server.py	/^from flask_cors import CORS, cross_origin$/;"	kind:namespace	line:2
+csv	QuickPrediction/quickprediction/prediction/qrunner.py	/^import csv$/;"	kind:namespace	line:1
+csv	QuickPrediction/quickprediction/utils/qoutput.py	/^import csv$/;"	kind:namespace	line:1
+csvFilepath	QuickPrediction/quickprediction/prediction/predict.py	/^  def csvFilepath(self):$/;"	kind:member	line:22
+customerCoordinates	QuickProactive/proactive/businessobjects/order.py	/^  def customerCoordinates(self):$/;"	kind:member	line:32
+data	QuickProactive/proactive/priority/taskunit.py	/^  def data(self):$/;"	kind:member	line:128
+database.py	QuickPrediction/quickprediction/dbs/database.py	1;"	kind:file	line:1
+database.py	QuickProactive/proactive/dbs/database.py	1;"	kind:file	line:1
+dataitem.py	QuickProactive/proactive/businessobjects/dataitem.py	1;"	kind:file	line:1
+date	QuickPrediction/generatedata.py	/^    date = radar.random_datetime(start='2016-11-01', stop=datetime.now())$/;"	kind:variable	line:53
+dateRange	QuickPrediction/quickprediction/parsers/timeparser.py	/^  def dateRange(start, end, increment, period):$/;"	kind:function	line:65
+dateparser	QuickProactive/proactive/priority/taskunit.py	/^from dateutil import parser as dateparser$/;"	kind:namespace	line:2
+datetime	QuickPrediction/generatedata.py	/^from datetime import timedelta, datetime$/;"	kind:namespace	line:5
+datetime	QuickPrediction/quickprediction/parsers/hours.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickPrediction/quickprediction/parsers/rowextract.py	/^import datetime$/;"	kind:namespace	line:1
+datetime	QuickPrediction/quickprediction/parsers/timeparser.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+datetime	QuickPrediction/run.py	/^from datetime import datetime$/;"	kind:namespace	line:2
+datetime	QuickProactive/proactive/businessobjects/business.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/proactive/priority/period.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/proactive/priority/release.py	/^from datetime import timedelta, datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/proactive/priority/taskmanager.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/proactive/priority/taskset.py	/^from datetime import datetime$/;"	kind:namespace	line:6
+datetime	QuickProactive/proactive/priority/taskunit.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/proactive/utils/timeutil.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+datetime	QuickProactive/tests/test_business.py	/^from datetime import datetime$/;"	kind:namespace	line:2
+datetime	QuickProactive/tests/test_order.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/tests/test_release.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+datetime	QuickProactive/tests/test_taskmanager.py	/^from datetime import datetime$/;"	kind:namespace	line:4
+datetime	QuickProactive/tests/test_taskunit.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+datetime	QuickProactive/tests/test_taskunitpriorityqueue.py	/^    from datetime import datetime$/;"	kind:namespace	line:8
+datetime	QuickProactive/tests/test_timeutil.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+datetime	QuickProactive/tests/test_worker.py	/^from datetime import datetime$/;"	kind:namespace	line:2
+datetime	QuickProactive/tests/testutil.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+dbDetails	QuickPrediction/generatedata.py	/^dbDetails = config.read([Configuration.DATABASES])[0][0]$/;"	kind:variable	line:12
+dbDetails	QuickPrediction/run.py	/^  dbDetails = config.read([Configuration.DATABASES])[0][0]$/;"	kind:variable	line:58
+dbs	QuickProactive/proactive/__init__.py	/^import proactive.dbs$/;"	kind:namespace	line:2
+deadline	QuickProactive/proactive/priority/taskunit.py	/^  def deadline(self):$/;"	kind:member	line:100
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(10, 00),$/;"	kind:variable	line:18
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(11, 00),$/;"	kind:variable	line:26
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(12, 00),$/;"	kind:variable	line:34
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(12, 00),$/;"	kind:variable	line:42
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(12, 30),$/;"	kind:variable	line:50
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(13, 15),$/;"	kind:variable	line:58
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(13, 20),$/;"	kind:variable	line:66
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(13, 30),$/;"	kind:variable	line:74
+deadline	QuickProactive/tests/test_tasksets.py	/^    deadline=tHour(14, 30),$/;"	kind:variable	line:82
+deadlineISO	QuickProactive/proactive/priority/taskunit.py	/^  def deadlineISO(self):$/;"	kind:member	line:104
+deleteGoogleMapsKey	QuickConfig/configuration.py	/^  def deleteGoogleMapsKey(self):$/;"	kind:member	line:122
+deleteGoogleMapsKey	QuickPrediction/quickprediction/config/configuration.py	/^  def deleteGoogleMapsKey(self):$/;"	kind:member	line:122
+deleteGoogleMapsKey	QuickProactive/proactive/config/configuration.py	/^  def deleteGoogleMapsKey(self):$/;"	kind:member	line:122
+deleteMongoDatabase	QuickConfig/configuration.py	/^  def deleteMongoDatabase(self, uri, port, database):$/;"	kind:member	line:78
+deleteMongoDatabase	QuickPrediction/quickprediction/config/configuration.py	/^  def deleteMongoDatabase(self, uri, port, database):$/;"	kind:member	line:78
+deleteMongoDatabase	QuickProactive/proactive/config/configuration.py	/^  def deleteMongoDatabase(self, uri, port, database):$/;"	kind:member	line:78
+deleteTokenSecretKey	QuickConfig/configuration.py	/^  def deleteTokenSecretKey(self):$/;"	kind:member	line:143
+deleteTokenSecretKey	QuickPrediction/quickprediction/config/configuration.py	/^  def deleteTokenSecretKey(self):$/;"	kind:member	line:143
+deleteTokenSecretKey	QuickProactive/proactive/config/configuration.py	/^  def deleteTokenSecretKey(self):$/;"	kind:member	line:143
+dirForBusiness	QuickPrediction/quickprediction/utils/qoutput.py	/^  def dirForBusiness(rootDir, businessID, make=False):$/;"	kind:member	line:28
+directory	QuickPrediction/run.py	/^  directory = args.dir$/;"	kind:variable	line:53
+distance_matrix	QuickProactive/tests/test_travel.py	/^  def distance_matrix(self, orig, dest, mode=None):$/;"	kind:member	line:32
+employeesNeededRows	QuickPrediction/quickprediction/parsers/rowextract.py	/^def employeesNeededRows(row):$/;"	kind:function	line:15
+end	QuickPrediction/generatedata.py	/^  end = datetime.strptime(args.end, "%d%m%Y")$/;"	kind:variable	line:22
+exceptions.py	QuickProactive/proactive/priority/exceptions.py	1;"	kind:file	line:1
+extractHourlyConflicts	QuickPrediction/quickprediction/parsers/timeparser.py	/^def extractHourlyConflicts(orders, fromDate, toDate=datetime.today(), multitask=2):$/;"	kind:function	line:148
+extractHourlyOrders	QuickPrediction/quickprediction/parsers/timeparser.py	/^def extractHourlyOrders(orders, fromDate, toDate=datetime.today()):$/;"	kind:function	line:77
+extractReleaseDeadline	QuickPrediction/quickprediction/parsers/timeparser.py	/^  def extractReleaseDeadline(order):$/;"	kind:function	line:152
+extractTime	QuickPrediction/quickprediction/parsers/timeparser.py	/^  def extractTime(current):$/;"	kind:function	line:55
+fileutil	QuickPrediction/quickprediction/prediction/predict.py	/^from quickprediction.utils import fileutil$/;"	kind:namespace	line:2
+fileutil	QuickPrediction/quickprediction/prediction/qswarm.py	/^from quickprediction.utils import fileutil$/;"	kind:namespace	line:5
+fileutil.py	QuickPrediction/quickprediction/utils/fileutil.py	1;"	kind:file	line:1
+filterDays	QuickPrediction/quickprediction/parsers/timeparser.py	/^  def filterDays(dayToCompare):$/;"	kind:function	line:18
+filterHours	QuickPrediction/quickprediction/parsers/timeparser.py	/^  def filterHours(hourToCompare):$/;"	kind:function	line:35
+find	QuickProactive/proactive/travel/travel.py	/^  def find(self, orig, dest, metric, mode="walking", measure="value"):$/;"	kind:member	line:58
+findConflicts	QuickPrediction/quickprediction/parsers/timeparser.py	/^from quickprediction.utils.intervaltreeutil import findConflicts$/;"	kind:namespace	line:4
+findConflicts	QuickPrediction/quickprediction/utils/intervaltreeutil.py	/^def findConflicts(intervalTree, begin=None, end=None):$/;"	kind:function	line:57
+findConflicts	QuickProactive/proactive/priority/taskset.py	/^  def findConflicts(self):$/;"	kind:member	line:100
+findLatestInterval	QuickPrediction/quickprediction/utils/intervaltreeutil.py	/^def findLatestInterval(intervals):$/;"	kind:function	line:3
+findSwappableTask	QuickProactive/proactive/priority/worker.py	/^  def findSwappableTask(self, task):$/;"	kind:member	line:45
+finishTask	QuickProactive/proactive/priority/taskmanager.py	/^  def finishTask(self, taskID):$/;"	kind:member	line:74
+flatten	QuickProactive/proactive/priority/conflict.py	/^  def flatten(self):$/;"	kind:member	line:149
+floatsToDatetimes	QuickProactive/proactive/priority/period.py	/^  def floatsToDatetimes(begin, end):$/;"	kind:member	line:14
+generatedata.py	QuickPrediction/generatedata.py	1;"	kind:file	line:1
+getArgs	QuickConfig/run.py	/^def getArgs():$/;"	kind:function	line:4
+getArgs	QuickPrediction/quickprediction/config/run.py	/^def getArgs():$/;"	kind:function	line:5
+getArgs	QuickProactive/proactive/config/run.py	/^def getArgs():$/;"	kind:function	line:4
+getDaysInDateRange	QuickPrediction/quickprediction/parsers/timeparser.py	/^def getDaysInDateRange(start, end):$/;"	kind:function	line:61
+getOrdersForDate	QuickPrediction/quickprediction/parsers/timeparser.py	/^def getOrdersForDate(date, orders):$/;"	kind:function	line:9
+getOrdersForHour	QuickPrediction/quickprediction/parsers/timeparser.py	/^def getOrdersForHour(hour, orders):$/;"	kind:function	line:27
+getTimeStampsFromMongoOrderData	QuickPrediction/quickprediction/parsers/timeparser.py	/^def getTimeStampsFromMongoOrderData(orders):$/;"	kind:function	line:49
+getWorkers	QuickProactive/server.py	/^def getWorkers():$/;"	kind:function	line:228
+gmapsResponse	QuickProactive/tests/test_travel.py	/^gmapsResponse = {$/;"	kind:variable	line:5
+googlemaps	QuickProactive/proactive/travel/travel.py	/^import googlemaps$/;"	kind:namespace	line:1
+handleArgs	QuickConfig/run.py	/^def handleArgs(parser):$/;"	kind:function	line:110
+handleArgs	QuickPrediction/quickprediction/config/run.py	/^def handleArgs(parser):$/;"	kind:function	line:111
+handleArgs	QuickProactive/proactive/config/run.py	/^def handleArgs(parser):$/;"	kind:function	line:110
+hasReachedTaskLimit	QuickProactive/proactive/priority/worker.py	/^  def hasReachedTaskLimit(self):$/;"	kind:member	line:41
+heap	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^import heapq as heap$/;"	kind:namespace	line:1
+highestConflictsForHour	QuickPrediction/quickprediction/parsers/timeparser.py	/^def highestConflictsForHour(conflicts):$/;"	kind:function	line:137
+hours	QuickPrediction/quickprediction/parsers/hours.py	/^hours = map(lambda hour: datetime.strptime(hour, "%H:%M"), [$/;"	kind:variable	line:4
+hours	QuickPrediction/quickprediction/parsers/timeparser.py	/^from .hours import hours$/;"	kind:namespace	line:5
+hours.py	QuickPrediction/quickprediction/parsers/hours.py	1;"	kind:file	line:1
+insert	QuickPrediction/quickprediction/dbs/orderdb.py	/^  def insert(self, order):$/;"	kind:member	line:17
+intervalConflictAlreadyDetected	QuickPrediction/quickprediction/utils/intervaltreeutil.py	/^def intervalConflictAlreadyDetected(interval, conflicts):$/;"	kind:function	line:46
+intervaltreeutil.py	QuickPrediction/quickprediction/utils/intervaltreeutil.py	1;"	kind:file	line:1
+isProcessing	QuickProactive/proactive/priority/taskunit.py	/^  def isProcessing(self):$/;"	kind:member	line:78
+items	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def items(self):$/;"	kind:member	line:83
+json	QuickConfig/configuration.py	/^import json$/;"	kind:namespace	line:2
+json	QuickConfig/run.py	/^    import json$/;"	kind:namespace	line:105
+json	QuickPrediction/quickprediction/config/configuration.py	/^import json$/;"	kind:namespace	line:2
+json	QuickPrediction/quickprediction/config/run.py	/^    import json$/;"	kind:namespace	line:106
+json	QuickPrediction/quickprediction/prediction/qswarm.py	/^import json$/;"	kind:namespace	line:3
+json	QuickProactive/proactive/config/configuration.py	/^import json$/;"	kind:namespace	line:2
+json	QuickProactive/proactive/config/run.py	/^    import json$/;"	kind:namespace	line:105
+jsonify	QuickProactive/server.py	/^from flask import Flask, request, Response, jsonify$/;"	kind:namespace	line:1
+loader	QuickProactive/tests/__init__.py	/^  loader = TestLoader()$/;"	kind:variable	line:15
+logging	QuickProactive/proactive/priority/priorityprocess.py	/^import logging$/;"	kind:namespace	line:1
+makeConfigFile	QuickConfig/configuration.py	/^  def makeConfigFile(self):$/;"	kind:member	line:32
+makeConfigFile	QuickPrediction/quickprediction/config/configuration.py	/^  def makeConfigFile(self):$/;"	kind:member	line:32
+makeConfigFile	QuickProactive/proactive/config/configuration.py	/^  def makeConfigFile(self):$/;"	kind:member	line:32
+matrixInfo	QuickProactive/proactive/travel/travel.py	/^  def matrixInfo(self, metric, measure, row=0):$/;"	kind:member	line:20
+max	QuickProactive/proactive/priority/conflict.py	/^  def max(self):$/;"	kind:member	line:139
+maxTasksAchievable	QuickProactive/proactive/priority/workerqueue.py	/^  def maxTasksAchievable(self):$/;"	kind:member	line:45
+mongo	QuickProactive/server.py	/^mongo = config.read([config.DATABASES])[0][0]$/;"	kind:variable	line:15
+mongoutil	QuickPrediction/quickprediction/dbs/database.py	/^from . import mongoutil$/;"	kind:namespace	line:2
+mongoutil	QuickProactive/proactive/dbs/database.py	/^from . import mongoutil$/;"	kind:namespace	line:2
+mongoutil.py	QuickPrediction/quickprediction/dbs/mongoutil.py	1;"	kind:file	line:1
+mongoutil.py	QuickProactive/proactive/dbs/mongoutil.py	1;"	kind:file	line:1
+monthRangeFrom	QuickPrediction/run.py	/^def monthRangeFrom(months=0):$/;"	kind:function	line:11
+monthsprior	QuickPrediction/run.py	/^  monthsprior = monthRangeFrom(args.monthsprior)$/;"	kind:variable	line:55
+multitask	QuickPrediction/run.py	/^  multitask = args.multitask$/;"	kind:variable	line:54
+multitask	QuickProactive/proactive/priority/worker.py	/^  def multitask(self):$/;"	kind:member	line:23
+name	QuickProactive/proactive/businessobjects/business.py	/^  def name(self):$/;"	kind:member	line:22
+newGmapsClient	QuickProactive/proactive/travel/travel.py	/^    def newGmapsClient(key):$/;"	kind:member	line:37
+newProcess	QuickProactive/proactive/priority/priorityservice.py	/^  def newProcess(self, business, processID, multitask, refresh=5000):$/;"	kind:member	line:11
+next	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def next(self):$/;"	kind:member	line:20
+nextWorker	QuickProactive/proactive/priority/workerqueue.py	/^  def nextWorker(self):$/;"	kind:member	line:18
+orIntervals	QuickPrediction/quickprediction/utils/intervaltreeutil.py	/^def orIntervals(intervalListA, intervalListB):$/;"	kind:function	line:13
+order	QuickPrediction/generatedata.py	/^    order = {$/;"	kind:variable	line:36
+order.py	QuickProactive/proactive/businessobjects/order.py	1;"	kind:file	line:1
+orderAmountRows	QuickPrediction/quickprediction/parsers/rowextract.py	/^def orderAmountRows(row):$/;"	kind:function	line:2
+orderDB	QuickPrediction/generatedata.py	/^  orderDB = OrderDB($/;"	kind:variable	line:25
+orderDB	QuickPrediction/run.py	/^  orderDB = OrderDB($/;"	kind:variable	line:60
+orderDBConn	QuickProactive/server.py	/^orderDBConn = OrderDB($/;"	kind:variable	line:17
+orderID	QuickProactive/proactive/businessobjects/order.py	/^  def orderID(self):$/;"	kind:member	line:20
+orderdb.py	QuickPrediction/quickprediction/dbs/orderdb.py	1;"	kind:file	line:1
+orderdb.py	QuickProactive/proactive/dbs/orderdb.py	1;"	kind:file	line:1
+orders	QuickPrediction/run.py	/^  orders = orderDB.read(fromDate=monthsprior)$/;"	kind:variable	line:69
+os	QuickConfig/configuration.py	/^import os$/;"	kind:namespace	line:1
+os	QuickPrediction/quickprediction/config/configuration.py	/^import os$/;"	kind:namespace	line:1
+os	QuickPrediction/quickprediction/prediction/predict.py	/^import os$/;"	kind:namespace	line:1
+os	QuickPrediction/quickprediction/prediction/qswarm.py	/^import os$/;"	kind:namespace	line:1
+os	QuickPrediction/quickprediction/utils/qoutput.py	/^import os$/;"	kind:namespace	line:2
+os	QuickProactive/proactive/config/configuration.py	/^import os$/;"	kind:namespace	line:1
+parser	QuickPrediction/generatedata.py	/^  parser = argparse.ArgumentParser()$/;"	kind:variable	line:15
+patch	QuickProactive/tests/test_taskmanager.py	/^from mock import patch$/;"	kind:namespace	line:5
+patch	QuickProactive/tests/test_travel.py	/^from mock import patch$/;"	kind:namespace	line:3
+period	QuickProactive/proactive/businessobjects/business.py	/^  def period(self):$/;"	kind:member	line:38
+period	QuickProactive/proactive/priority/conflict.py	/^  def period(self):$/;"	kind:member	line:20
+period.py	QuickProactive/proactive/priority/period.py	1;"	kind:file	line:1
+permutations_runner	QuickPrediction/quickprediction/prediction/qswarm.py	/^from nupic.swarming import permutations_runner$/;"	kind:namespace	line:4
+pop	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def pop(self):$/;"	kind:member	line:53
+popAll	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def popAll(self):$/;"	kind:member	line:57
+pprint	QuickPrediction/generatedata.py	/^from pprint import pprint$/;"	kind:namespace	line:4
+pprint	QuickPrediction/quickprediction/prediction/qswarm.py	/^import pprint$/;"	kind:namespace	line:2
+predict	QuickPrediction/run.py	/^  predict = Predict(businessid, swarmType, directory)$/;"	kind:variable	line:81
+predict.py	QuickPrediction/quickprediction/prediction/predict.py	1;"	kind:file	line:1
+predictData	QuickPrediction/run.py	/^    predictData = extractHourlyConflicts(orders, monthsprior, multitask=multitask)$/;"	kind:variable	line:77
+predictData	QuickPrediction/run.py	/^    predictData = extractHourlyOrders(orders, monthsprior)$/;"	kind:variable	line:74
+predictData	QuickPrediction/run.py	/^  predictData = None$/;"	kind:variable	line:70
+prediction	QuickPrediction/quickprediction/dbs/predictiondb.py	/^import quickprediction.prediction.swarmtype as swarmtype$/;"	kind:namespace	line:3
+prediction	QuickPrediction/quickprediction/prediction/qrunner.py	/^import quickprediction.prediction.swarmtype as swarmtype$/;"	kind:namespace	line:4
+prediction	QuickPrediction/quickprediction/utils/fileutil.py	/^import quickprediction.prediction.swarmtype as swarmType$/;"	kind:namespace	line:1
+predictionDB	QuickPrediction/run.py	/^  predictionDB = PredictionDB($/;"	kind:variable	line:85
+predictiondb.py	QuickPrediction/quickprediction/dbs/predictiondb.py	1;"	kind:file	line:1
+printArgs	QuickConfig/run.py	/^def printArgs(objectList, pformat="raw"):$/;"	kind:function	line:93
+printArgs	QuickPrediction/quickprediction/config/run.py	/^def printArgs(objectList, pformat="raw"):$/;"	kind:function	line:94
+printArgs	QuickProactive/proactive/config/run.py	/^def printArgs(objectList, pformat="raw"):$/;"	kind:function	line:93
+printQueue	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def printQueue(self):$/;"	kind:member	line:78
+priority	QuickProactive/proactive/__init__.py	/^import proactive.priority$/;"	kind:namespace	line:3
+priority	QuickProactive/proactive/priority/priority.py	/^  def priority(self):$/;"	kind:member	line:11
+priority	QuickProactive/proactive/priority/taskunit.py	/^  def priority(self):$/;"	kind:member	line:134
+priority	QuickProactive/tests/test_release.py	/^import proactive.priority.release as release$/;"	kind:namespace	line:3
+priority.py	QuickProactive/proactive/priority/priority.py	1;"	kind:file	line:1
+priorityService	QuickProactive/server.py	/^priorityService = PriorityService(orderDBConn)$/;"	kind:variable	line:25
+priorityprocess	QuickProactive/proactive/priority/__init__.py	/^from . import taskunitpriorityqueue, priorityprocess, priorityservice$/;"	kind:namespace	line:1
+priorityprocess.py	QuickProactive/proactive/priority/priorityprocess.py	1;"	kind:file	line:1
+priorityservice	QuickProactive/proactive/priority/__init__.py	/^from . import taskunitpriorityqueue, priorityprocess, priorityservice$/;"	kind:namespace	line:1
+priorityservice.py	QuickProactive/proactive/priority/priorityservice.py	1;"	kind:file	line:1
+proactive	QuickProactive/proactive/__init__.py	/^import proactive.config$/;"	kind:namespace	line:1
+proactive	QuickProactive/proactive/__init__.py	/^import proactive.dbs$/;"	kind:namespace	line:2
+proactive	QuickProactive/proactive/__init__.py	/^import proactive.priority$/;"	kind:namespace	line:3
+proactive	QuickProactive/proactive/__init__.py	/^import proactive.travel$/;"	kind:namespace	line:4
+proactive	QuickProactive/tests/test_release.py	/^import proactive.priority.release as release$/;"	kind:namespace	line:3
+process	QuickProactive/proactive/priority/priorityservice.py	/^  def process(self, processID):$/;"	kind:member	line:30
+processing	QuickProactive/proactive/businessobjects/order.py	/^  def processing(self):$/;"	kind:member	line:28
+processing	QuickProactive/proactive/priority/taskunit.py	/^  def processing(self):$/;"	kind:member	line:108
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:20
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:28
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:36
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:44
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:53
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:60
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:68
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:76
+processing	QuickProactive/tests/test_tasksets.py	/^    processing=0,$/;"	kind:variable	line:84
+products	QuickProactive/proactive/businessobjects/order.py	/^  def products(self):$/;"	kind:member	line:48
+profit	QuickProactive/proactive/priority/taskunit.py	/^  def profit(self):$/;"	kind:member	line:120
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:19
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:27
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:35
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:43
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:51
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:59
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:67
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:75
+profit	QuickProactive/tests/test_tasksets.py	/^    profit=0,$/;"	kind:variable	line:83
+push	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def push(self, obj):$/;"	kind:member	line:45
+put	QuickProactive/proactive/priority/workerqueue.py	/^  def put(self, worker):$/;"	kind:member	line:9
+qoutput.py	QuickPrediction/quickprediction/utils/qoutput.py	1;"	kind:file	line:1
+qrunner.py	QuickPrediction/quickprediction/prediction/qrunner.py	1;"	kind:file	line:1
+qswarm.py	QuickPrediction/quickprediction/prediction/qswarm.py	1;"	kind:file	line:1
+quickprediction	QuickPrediction/quickprediction/dbs/predictiondb.py	/^import quickprediction.prediction.swarmtype as swarmtype$/;"	kind:namespace	line:3
+quickprediction	QuickPrediction/quickprediction/prediction/qrunner.py	/^import quickprediction.prediction.swarmtype as swarmtype$/;"	kind:namespace	line:4
+quickprediction	QuickPrediction/quickprediction/utils/fileutil.py	/^import quickprediction.prediction.swarmtype as swarmType$/;"	kind:namespace	line:1
+radar	QuickPrediction/generatedata.py	/^import radar$/;"	kind:namespace	line:1
+randint	QuickProactive/tests/test_taskmanager.py	/^from random import randint$/;"	kind:namespace	line:1
+random	QuickPrediction/generatedata.py	/^import random$/;"	kind:namespace	line:3
+read	QuickConfig/configuration.py	/^  def read(self, prop):$/;"	kind:member	line:151
+read	QuickPrediction/quickprediction/config/configuration.py	/^  def read(self, prop):$/;"	kind:member	line:151
+read	QuickPrediction/quickprediction/dbs/database.py	/^  def read(self):$/;"	kind:member	line:36
+read	QuickPrediction/quickprediction/dbs/orderdb.py	/^  def read(self, fromDate):$/;"	kind:member	line:8
+read	QuickProactive/proactive/config/configuration.py	/^  def read(self, prop):$/;"	kind:member	line:151
+read	QuickProactive/proactive/dbs/businessdb.py	/^  def read(self, businessID):$/;"	kind:member	line:10
+read	QuickProactive/proactive/dbs/database.py	/^  def read(self):$/;"	kind:member	line:37
+read	QuickProactive/proactive/dbs/orderdb.py	/^  def read(self, businessID, excluding=None):$/;"	kind:member	line:9
+records	QuickPrediction/generatedata.py	/^  records = int(args.number)$/;"	kind:variable	line:23
+relativedelta	QuickPrediction/quickprediction/parsers/timeparser.py	/^from dateutil.relativedelta import relativedelta$/;"	kind:namespace	line:2
+relativedelta	QuickPrediction/run.py	/^from dateutil.relativedelta import relativedelta$/;"	kind:namespace	line:4
+release	QuickProactive/proactive/priority/taskunit.py	/^      from . import release$/;"	kind:namespace	line:65
+release	QuickProactive/proactive/priority/taskunit.py	/^  def release(self):$/;"	kind:member	line:112
+release	QuickProactive/tests/test_release.py	/^import proactive.priority.release as release$/;"	kind:namespace	line:3
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(11, 30),$/;"	kind:variable	line:37
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(11, 35),$/;"	kind:variable	line:45
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(11, 50),$/;"	kind:variable	line:52
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(12, 15),$/;"	kind:variable	line:61
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(12, 30),$/;"	kind:variable	line:69
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(13, 00),$/;"	kind:variable	line:77
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(14, 00),$/;"	kind:variable	line:85
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(9, 30),$/;"	kind:variable	line:21
+release	QuickProactive/tests/test_tasksets.py	/^    release=tHour(9, 40),$/;"	kind:variable	line:29
+release	QuickProactive/tests/test_taskunit.py	/^from proactive.priority import release$/;"	kind:namespace	line:6
+release.py	QuickProactive/proactive/priority/release.py	1;"	kind:file	line:1
+releaseAt	QuickProactive/proactive/priority/release.py	/^def releaseAt(deadline, processing):$/;"	kind:function	line:3
+releaseISO	QuickProactive/proactive/priority/taskunit.py	/^  def releaseISO(self):$/;"	kind:member	line:116
+remove	QuickProactive/proactive/priority/taskset.py	/^  def remove(self, task):$/;"	kind:member	line:41
+remove	QuickProactive/proactive/priority/taskunitpriorityqueue.py	/^  def remove(self, taskID):$/;"	kind:member	line:27
+removeTask	QuickProactive/server.py	/^def removeTask():$/;"	kind:function	line:198
+removeWorker	QuickProactive/proactive/priority/taskmanager.py	/^  def removeWorker(self, workerID):$/;"	kind:member	line:169
+removeWorker	QuickProactive/proactive/priority/workerqueue.py	/^  def removeWorker(self, worker):$/;"	kind:member	line:26
+removeWorkers	QuickProactive/server.py	/^def removeWorkers():$/;"	kind:function	line:247
+request	QuickProactive/server.py	/^from flask import Flask, request, Response, jsonify$/;"	kind:namespace	line:1
+result	QuickPrediction/generatedata.py	/^  result = bulkop.execute()$/;"	kind:variable	line:63
+rowextract	QuickPrediction/quickprediction/prediction/predict.py	/^from quickprediction.parsers import rowextract$/;"	kind:namespace	line:4
+rowextract.py	QuickPrediction/quickprediction/parsers/rowextract.py	1;"	kind:file	line:1
+rows	QuickPrediction/run.py	/^  rows = predict.begin(predictData)$/;"	kind:variable	line:82
+run	QuickProactive/proactive/priority/priorityprocess.py	/^  def run(self):$/;"	kind:member	line:43
+run.py	QuickConfig/run.py	1;"	kind:file	line:1
+run.py	QuickPrediction/quickprediction/config/run.py	1;"	kind:file	line:1
+run.py	QuickPrediction/run.py	1;"	kind:file	line:1
+run.py	QuickProactive/proactive/config/run.py	1;"	kind:file	line:1
+runModel	QuickPrediction/quickprediction/prediction/qrunner.py	/^  def runModel(self, runName, inPath, swarmType, outDir, skiprows, func):$/;"	kind:member	line:25
+runner	QuickProactive/tests/__init__.py	/^  runner = TextTestRunner(verbosity=4)$/;"	kind:variable	line:29
+server.py	QuickProactive/server.py	1;"	kind:file	line:1
+setUp	QuickProactive/tests/test_order.py	/^  def setUp(self):$/;"	kind:member	line:7
+setUp	QuickProactive/tests/test_taskmanager.py	/^  def setUp(self):$/;"	kind:member	line:18
+setUp	QuickProactive/tests/test_taskset.py	/^  def setUp(self):$/;"	kind:member	line:8
+setUp	QuickProactive/tests/test_taskunit.py	/^  def setUp(self):$/;"	kind:member	line:11
+setUp	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def setUp(self):$/;"	kind:member	line:7
+setUp	QuickProactive/tests/test_worker.py	/^  def setUp(self):$/;"	kind:member	line:9
+size	QuickProactive/proactive/priority/workerqueue.py	/^  def size(self):$/;"	kind:member	line:30
+start	QuickPrediction/generatedata.py	/^  start = datetime.strptime(args.start, "%d%m%Y")$/;"	kind:variable	line:21
+start	QuickPrediction/quickprediction/prediction/qswarm.py	/^  def start(self, name="unnamed"):$/;"	kind:member	line:62
+status	QuickProactive/proactive/businessobjects/order.py	/^  def status(self):$/;"	kind:member	line:24
+status	QuickProactive/proactive/priority/conflict.py	/^  def status(self):$/;"	kind:member	line:34
+status	QuickProactive/proactive/priority/conflict.py	/^  def status(self, status):$/;"	kind:member	line:45
+stop	QuickProactive/proactive/priority/priorityprocess.py	/^  def stop(self):$/;"	kind:member	line:49
+stopProcess	QuickProactive/proactive/priority/priorityservice.py	/^  def stopProcess(self, processID):$/;"	kind:member	line:33
+stopWorker	QuickProactive/server.py	/^def stopWorker():$/;"	kind:function	line:99
+suite	QuickProactive/tests/__init__.py	/^  suite = TestSuite([$/;"	kind:variable	line:16
+swarmDescPath	QuickPrediction/quickprediction/utils/fileutil.py	/^def swarmDescPath(directory, swarmtype, filename):$/;"	kind:function	line:13
+swarmType	QuickPrediction/quickprediction/utils/fileutil.py	/^import quickprediction.prediction.swarmtype as swarmType$/;"	kind:namespace	line:1
+swarmType	QuickPrediction/run.py	/^  swarmType = args.swarmtype.upper()$/;"	kind:variable	line:51
+swarmtype	QuickPrediction/quickprediction/dbs/predictiondb.py	/^import quickprediction.prediction.swarmtype as swarmtype$/;"	kind:namespace	line:3
+swarmtype	QuickPrediction/quickprediction/prediction/predict.py	/^from . import swarmtype$/;"	kind:namespace	line:7
+swarmtype	QuickPrediction/quickprediction/prediction/qrunner.py	/^import quickprediction.prediction.swarmtype as swarmtype$/;"	kind:namespace	line:4
+swarmtype	QuickPrediction/quickprediction/prediction/qswarm.py	/^from . import swarmtype$/;"	kind:namespace	line:6
+swarmtype	QuickPrediction/run.py	/^from quickprediction.prediction import swarmtype$/;"	kind:namespace	line:3
+swarmtype.py	QuickPrediction/quickprediction/prediction/swarmtype.py	1;"	kind:file	line:1
+tHour	QuickProactive/proactive/utils/timeutil.py	/^def tHour(hour, minute):$/;"	kind:function	line:10
+tHour	QuickProactive/server.py	/^from proactive.utils.timeutil import tHour$/;"	kind:namespace	line:11
+tHour	QuickProactive/tests/test_taskmanager.py	/^from .testutil import tHour$/;"	kind:namespace	line:14
+tHour	QuickProactive/tests/test_taskset.py	/^from .testutil import tHour$/;"	kind:namespace	line:5
+tHour	QuickProactive/tests/test_tasksets.py	/^from .testutil import tHour$/;"	kind:namespace	line:2
+tHour	QuickProactive/tests/test_taskunit.py	/^from .testutil import tHour$/;"	kind:namespace	line:8
+tHour	QuickProactive/tests/test_worker.py	/^from .testutil import tHour$/;"	kind:namespace	line:6
+tHour	QuickProactive/tests/test_workerqueue.py	/^from .testutil import tHour$/;"	kind:namespace	line:4
+tHour	QuickProactive/tests/testutil.py	/^def tHour(hour, minute):$/;"	kind:function	line:3
+tPeriod	QuickProactive/tests/test_taskmanager.py	/^  def tPeriod(self):$/;"	kind:member	line:32
+taskDeadline	QuickProactive/server.py	/^def taskDeadline():$/;"	kind:function	line:135
+taskID	QuickProactive/proactive/priority/taskunit.py	/^  def taskID(self):$/;"	kind:member	line:124
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t1"$/;"	kind:variable	line:22
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t2"$/;"	kind:variable	line:30
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t3"$/;"	kind:variable	line:38
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t4"$/;"	kind:variable	line:46
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t5"$/;"	kind:variable	line:54
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t6"$/;"	kind:variable	line:62
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t7"$/;"	kind:variable	line:70
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t8"$/;"	kind:variable	line:78
+taskID	QuickProactive/tests/test_tasksets.py	/^    taskID="t9"$/;"	kind:variable	line:86
+taskManager	QuickProactive/proactive/priority/priorityprocess.py	/^  def taskManager(self):$/;"	kind:member	line:31
+taskSet	QuickProactive/proactive/priority/taskmanager.py	/^  def taskSet(self):$/;"	kind:member	line:43
+taskSetState	QuickProactive/proactive/priority/priorityprocess.py	/^  def taskSetState(self):$/;"	kind:member	line:98
+taskmanager.py	QuickProactive/proactive/priority/taskmanager.py	1;"	kind:file	line:1
+tasks	QuickProactive/proactive/priority/priorityprocess.py	/^  def tasks(self):$/;"	kind:member	line:36
+tasks	QuickProactive/proactive/priority/taskset.py	/^  def tasks(self):$/;"	kind:member	line:18
+tasks	QuickProactive/server.py	/^def tasks():$/;"	kind:function	line:120
+taskset.py	QuickProactive/proactive/priority/taskset.py	1;"	kind:file	line:1
+taskunit.py	QuickProactive/proactive/priority/taskunit.py	1;"	kind:file	line:1
+taskunitpriorityqueue	QuickProactive/proactive/priority/__init__.py	/^from . import taskunitpriorityqueue, priorityprocess, priorityservice$/;"	kind:namespace	line:1
+taskunitpriorityqueue.py	QuickProactive/proactive/priority/taskunitpriorityqueue.py	1;"	kind:file	line:1
+test_add	QuickProactive/tests/test_taskset.py	/^  def test_add(self):$/;"	kind:member	line:26
+test_addSeconds	QuickProactive/tests/test_timeutil.py	/^  def test_addSeconds(self):$/;"	kind:member	line:7
+test_addTask	QuickProactive/tests/test_taskmanager.py	/^  def test_addTask(self):$/;"	kind:member	line:38
+test_addWorker	QuickProactive/tests/test_taskmanager.py	/^  def test_addWorker(self):$/;"	kind:member	line:121
+test_addWorkers	QuickProactive/tests/test_taskmanager.py	/^  def test_addWorkers(self):$/;"	kind:member	line:75
+test_addWorkersAfterInitialAssignment	QuickProactive/tests/test_taskmanager.py	/^  def test_addWorkersAfterInitialAssignment(self):$/;"	kind:member	line:127
+test_analyseWorkersNeededTaskSet	QuickProactive/tests/test_taskmanager.py	/^  def test_analyseWorkersNeededTaskSet(self):$/;"	kind:member	line:283
+test_asDict	QuickProactive/tests/test_taskunit.py	/^  def test_asDict(self):$/;"	kind:member	line:48
+test_assignTaskToWorkersThatNeedsToBeSwapped	QuickProactive/tests/test_taskmanager.py	/^  def test_assignTaskToWorkersThatNeedsToBeSwapped(self, isProcessing):$/;"	kind:member	line:167
+test_assignTasksToWorkers	QuickProactive/tests/test_taskmanager.py	/^  def test_assignTasksToWorkers(self):$/;"	kind:member	line:139
+test_assignedTasksCountAndUnassignedTasksCount	QuickProactive/tests/test_taskmanager.py	/^  def test_assignedTasksCountAndUnassignedTasksCount(self):$/;"	kind:member	line:213
+test_assignedWorker	QuickProactive/tests/test_taskunit.py	/^  def test_assignedWorker(self):$/;"	kind:member	line:100
+test_availableInPeriod	QuickProactive/tests/test_worker.py	/^  def test_availableInPeriod(self):$/;"	kind:member	line:59
+test_availableWorkersInPeriod	QuickProactive/tests/test_workerqueue.py	/^  def test_availableWorkersInPeriod(self):$/;"	kind:member	line:79
+test_business.py	QuickProactive/tests/test_business.py	1;"	kind:file	line:1
+test_canAssignTasks	QuickProactive/tests/test_worker.py	/^  def test_canAssignTasks(self):$/;"	kind:member	line:45
+test_conflictPeriod	QuickProactive/tests/test_taskset.py	/^  def test_conflictPeriod(self):$/;"	kind:member	line:41
+test_conflicts	QuickProactive/tests/test_taskset.py	/^  def test_conflicts(self):$/;"	kind:member	line:35
+test_constructWithNonListObject	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_constructWithNonListObject(self):$/;"	kind:member	line:103
+test_contains	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_contains(self):$/;"	kind:member	line:160
+test_count	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_count(self):$/;"	kind:member	line:16
+test_exactTaskLimit	QuickProactive/tests/test_worker.py	/^  def test_exactTaskLimit(self):$/;"	kind:member	line:39
+test_findDistanceMetricWithValueMeasure	QuickProactive/tests/test_travel.py	/^  def test_findDistanceMetricWithValueMeasure(self, GmapsFactory):$/;"	kind:member	line:58
+test_findDurationMetricWithValueMeasure	QuickProactive/tests/test_travel.py	/^  def test_findDurationMetricWithValueMeasure(self, GmapsFactory):$/;"	kind:member	line:40
+test_finishTasks	QuickProactive/tests/test_taskmanager.py	/^  def test_finishTasks(self):$/;"	kind:member	line:43
+test_finishTasksAfterAssigningTasksToWorkers	QuickProactive/tests/test_taskmanager.py	/^  def test_finishTasksAfterAssigningTasksToWorkers(self):$/;"	kind:member	line:227
+test_init	QuickProactive/tests/test_business.py	/^  def test_init(self):$/;"	kind:member	line:29
+test_init	QuickProactive/tests/test_order.py	/^  def test_init(self):$/;"	kind:member	line:17
+test_init	QuickProactive/tests/test_taskunit.py	/^  def test_init(self):$/;"	kind:member	line:27
+test_laterReleaseThanDeadline	QuickProactive/tests/test_taskunit.py	/^  def test_laterReleaseThanDeadline(self):$/;"	kind:member	line:89
+test_maxTasksAchievable	QuickProactive/tests/test_workerqueue.py	/^  def test_maxTasksAchievable(self):$/;"	kind:member	line:7
+test_maxTasksLimit	QuickProactive/tests/test_worker.py	/^  def test_maxTasksLimit(self):$/;"	kind:member	line:32
+test_noConflictsAfterAllTasksRemoved	QuickProactive/tests/test_taskmanager.py	/^  def test_noConflictsAfterAllTasksRemoved(self):$/;"	kind:member	line:266
+test_order.py	QuickProactive/tests/test_order.py	1;"	kind:file	line:1
+test_popEmptyQueue	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_popEmptyQueue(self):$/;"	kind:member	line:114
+test_popOrderFromPopulatedQueueFromConstructor	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_popOrderFromPopulatedQueueFromConstructor(self):$/;"	kind:member	line:119
+test_priority	QuickProactive/tests/test_taskunit.py	/^  def test_priority(self):$/;"	kind:member	line:76
+test_pushToEmptyQueue	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_pushToEmptyQueue(self):$/;"	kind:member	line:31
+test_pushToPopulatedQueue	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_pushToPopulatedQueue(self):$/;"	kind:member	line:46
+test_pushWithListObject	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_pushWithListObject(self):$/;"	kind:member	line:82
+test_pushWithNonListObject	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_pushWithNonListObject(self):$/;"	kind:member	line:69
+test_putList	QuickProactive/tests/test_workerqueue.py	/^  def test_putList(self):$/;"	kind:member	line:37
+test_putWorkers	QuickProactive/tests/test_workerqueue.py	/^  def test_putWorkers(self):$/;"	kind:member	line:56
+test_release.py	QuickProactive/tests/test_release.py	1;"	kind:file	line:1
+test_releaseAt	QuickProactive/tests/test_release.py	/^  def test_releaseAt(self):$/;"	kind:member	line:8
+test_releaseAtWithProcessingLargerThanDeadline	QuickProactive/tests/test_release.py	/^  def test_releaseAtWithProcessingLargerThanDeadline(self):$/;"	kind:member	line:27
+test_remove	QuickProactive/tests/test_taskset.py	/^  def test_remove(self):$/;"	kind:member	line:30
+test_remove	QuickProactive/tests/test_taskunitpriorityqueue.py	/^  def test_remove(self):$/;"	kind:member	line:147
+test_removeUnkownWorker	QuickProactive/tests/test_taskmanager.py	/^  def test_removeUnkownWorker(self):$/;"	kind:member	line:114
+test_removeWorker	QuickProactive/tests/test_taskmanager.py	/^  def test_removeWorker(self):$/;"	kind:member	line:84
+test_removeWorker	QuickProactive/tests/test_workerqueue.py	/^  def test_removeWorker(self):$/;"	kind:member	line:22
+test_removeWorkerAfterAssigningTasks	QuickProactive/tests/test_taskmanager.py	/^  def test_removeWorkerAfterAssigningTasks(self):$/;"	kind:member	line:94
+test_taskAfterDeadline	QuickProactive/tests/test_taskmanager.py	/^  def test_taskAfterDeadline(self):$/;"	kind:member	line:62
+test_taskmanager.py	QuickProactive/tests/test_taskmanager.py	1;"	kind:file	line:1
+test_taskset.py	QuickProactive/tests/test_taskset.py	1;"	kind:file	line:1
+test_tasksets.py	QuickProactive/tests/test_tasksets.py	1;"	kind:file	line:1
+test_taskunit.py	QuickProactive/tests/test_taskunit.py	1;"	kind:file	line:1
+test_taskunitpriorityqueue.py	QuickProactive/tests/test_taskunitpriorityqueue.py	1;"	kind:file	line:1
+test_timeutil.py	QuickProactive/tests/test_timeutil.py	1;"	kind:file	line:1
+test_transformStringToPeriod	QuickProactive/tests/test_business.py	/^  def test_transformStringToPeriod(self):$/;"	kind:member	line:7
+test_travel.py	QuickProactive/tests/test_travel.py	1;"	kind:file	line:1
+test_unnasignTask	QuickProactive/tests/test_worker.py	/^  def test_unnasignTask(self):$/;"	kind:member	line:53
+test_worker.py	QuickProactive/tests/test_worker.py	1;"	kind:file	line:1
+test_workerGetsAssignedAnotherTaskAfterFinishing	QuickProactive/tests/test_taskmanager.py	/^  def test_workerGetsAssignedAnotherTaskAfterFinishing(self):$/;"	kind:member	line:247
+test_workerqueue.py	QuickProactive/tests/test_workerqueue.py	1;"	kind:file	line:1
+test_workersNeeded	QuickProactive/tests/test_taskmanager.py	/^  def test_workersNeeded(self):$/;"	kind:member	line:53
+testtaskset	QuickProactive/tests/test_taskmanager.py	/^from .test_tasksets import testtaskset$/;"	kind:namespace	line:13
+testtaskset	QuickProactive/tests/test_taskset.py	/^from .test_tasksets import testtaskset$/;"	kind:namespace	line:4
+testtaskset	QuickProactive/tests/test_tasksets.py	/^testtaskset = [$/;"	kind:variable	line:15
+testutil.py	QuickProactive/tests/testutil.py	1;"	kind:file	line:1
+timedelta	QuickPrediction/generatedata.py	/^from datetime import timedelta, datetime$/;"	kind:namespace	line:5
+timedelta	QuickPrediction/quickprediction/parsers/timeparser.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+timedelta	QuickProactive/proactive/priority/release.py	/^from datetime import timedelta, datetime$/;"	kind:namespace	line:1
+timedelta	QuickProactive/proactive/utils/timeutil.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+timedelta	QuickProactive/tests/test_release.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+timedelta	QuickProactive/tests/test_timeutil.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+timeparser.py	QuickPrediction/quickprediction/parsers/timeparser.py	1;"	kind:file	line:1
+timeutil	QuickProactive/proactive/priority/taskunit.py	/^from proactive.utils import timeutil$/;"	kind:namespace	line:3
+timeutil	QuickProactive/tests/test_taskunit.py	/^from proactive.utils import timeutil$/;"	kind:namespace	line:5
+timeutil	QuickProactive/tests/test_timeutil.py	/^from proactive.utils import timeutil$/;"	kind:namespace	line:2
+timeutil.py	QuickProactive/proactive/utils/timeutil.py	1;"	kind:file	line:1
+transormWorkerObject	QuickProactive/server.py	/^def transormWorkerObject(obj):$/;"	kind:function	line:28
+travel	QuickProactive/proactive/__init__.py	/^import proactive.travel$/;"	kind:namespace	line:4
+travel.py	QuickProactive/proactive/travel/travel.py	1;"	kind:file	line:1
+travelMode	QuickProactive/proactive/businessobjects/order.py	/^  def travelMode(self):$/;"	kind:member	line:36
+unassignTask	QuickProactive/proactive/priority/worker.py	/^  def unassignTask(self, taskID):$/;"	kind:member	line:27
+unassignWorker	QuickProactive/proactive/priority/taskunit.py	/^  def unassignWorker(self):$/;"	kind:member	line:84
+unassignedTasks	QuickProactive/proactive/priority/taskmanager.py	/^  def unassignedTasks(self):$/;"	kind:member	line:38
+weakref	QuickProactive/proactive/priority/taskmanager.py	/^import weakref$/;"	kind:namespace	line:2
+worker.py	QuickProactive/proactive/priority/worker.py	1;"	kind:file	line:1
+workerID	QuickProactive/proactive/priority/worker.py	/^  def workerID(self):$/;"	kind:member	line:13
+workerqueue.py	QuickProactive/proactive/priority/workerqueue.py	1;"	kind:file	line:1
+workers	QuickProactive/proactive/priority/taskmanager.py	/^  def workers(self):$/;"	kind:member	line:52
+workersNeeded	QuickPrediction/quickprediction/parsers/timeparser.py	/^def workersNeeded(k, m):$/;"	kind:function	line:126
+workersNeeded	QuickProactive/proactive/priority/conflict.py	/^  def workersNeeded(self):$/;"	kind:member	line:63
+workersNeeded	QuickProactive/proactive/priority/conflict.py	/^  def workersNeeded(self, workersNeeded):$/;"	kind:member	line:68
+workersNeeded	QuickProactive/proactive/priority/taskmanager.py	/^  def workersNeeded(self, k, m):$/;"	kind:member	line:143
+write	QuickPrediction/quickprediction/dbs/predictiondb.py	/^  def write(self, businessID, swarmType, data):$/;"	kind:member	line:9
+write	QuickPrediction/quickprediction/utils/qoutput.py	/^  def write(self, row):$/;"	kind:member	line:19
+writeHeader	QuickPrediction/quickprediction/utils/qoutput.py	/^  def writeHeader(self, header):$/;"	kind:member	line:16
+zeroFillOrdersForFullDay	QuickPrediction/quickprediction/parsers/timeparser.py	/^def zeroFillOrdersForFullDay(date):$/;"	kind:function	line:45
