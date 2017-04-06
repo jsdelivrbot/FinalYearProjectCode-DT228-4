@@ -21,4 +21,4 @@ The configration file can be created using the QuickConfig script else use the f
 }
 ```
 
-Once this has been done run the projects can be build, each proejct has another README with information on how to run and build.
+Once this has been done the projects can be built and run, each proejct has another README with information on how to run and build.
